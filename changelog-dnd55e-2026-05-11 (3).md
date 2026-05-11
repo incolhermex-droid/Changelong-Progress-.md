@@ -52,6 +52,9 @@ Clarified Goliath carry weight increase wording and corrected missing translatio
 
 [`1c9558c`](https://github.com/Yoonmoonsik/dnd55e/commit/1c9558cdf3088e32ffff711cc7d637e5b7f320fe) · *incolhermex-droid*
 
+Updated Latin American Spanish localization for Elven Accuracy.
+Fixed missing feat description text and corrected localization formatting in the Spanish translation files.
+
 ---
 
 ### 🔴 fix #202
@@ -76,6 +79,9 @@ Updated generated status entries to properly apply the intended defensive effect
 
 [`fc07c9a`](https://github.com/Yoonmoonsik/dnd55e/commit/fc07c9aa6b81005007eeea14c633e09987f56328) · *yoonmoonsik*
 
+Reworked Elven Accuracy to use a dedicated interrupt-based reroll system instead of passive boost handling.
+Added proper advantage condition checks, reroll prompts, and updated related localization entries for the feat.
+
 ---
 
 ## May 7, 2026
@@ -84,11 +90,17 @@ Updated generated status entries to properly apply the intended defensive effect
 
 [`5bafced`](https://github.com/Yoonmoonsik/dnd55e/commit/5bafced0b120919cb3054a7e81b5ecc3f272e1e8) · *Yoonmoonsik*
 
+Updated Latin American Spanish localization for Human racial traits and related feature descriptions.
+Added missing translations for Versatile, Skillful, Keen Senses, and updated attack replacement wording for cantrip casting.
+
 ---
 
 ### 🔵 Update1.0.2 latinSpanish.xml
 
 [`dbbf0b1`](https://github.com/Yoonmoonsik/dnd55e/commit/dbbf0b18c039c9e32a75aef3b3f3043f0a5c6f22) · *incolhermex-droid*
+
+Updated Latin American Spanish localization for Human racial traits and combat-related feature descriptions.
+Added missing translations for Versatile, Skillful, Keen Senses, and cantrip attack replacement functionality.
 
 ---
 
@@ -98,11 +110,17 @@ Updated generated status entries to properly apply the intended defensive effect
 
 [`5a8c740`](https://github.com/Yoonmoonsik/dnd55e/commit/5a8c74012b9a826ec565beb6aad5a909ebc1d318) · *yoonmoonsik*
 
+Added support for replacing one attack during the Attack action with a cantrip cast.
+Updated related localization entries and passive descriptions to reflect the new combat interaction behavior.
+
 ---
 
 ### ⚪ QoL Invoke Duplicity
 
 [`f33a415`](https://github.com/Yoonmoonsik/dnd55e/commit/f33a415af27eaefb511f676d3e948272633a5487) · *yoonmoonsik*
+
+Added QoL improvements to Invoke Duplicity by enabling character-based AoE condition handling for the spell target.
+Updated generated spell target data to improve duplicate placement and targeting behavior consistency.
 
 ---
 
@@ -110,11 +128,17 @@ Updated generated status entries to properly apply the intended defensive effect
 
 [`0ca69e7`](https://github.com/Yoonmoonsik/dnd55e/commit/0ca69e7ac166cb348339c7d67c0b73798d29dc29) · *yoonmoonsik*
 
+Fixed incorrect application conditions for the Stunning Strike passive effect.
+Updated Monk interrupt handling and passive trigger data to improve combat consistency and prevent invalid activation states.
+
 ---
 
 ### 🔴 fix #200
 
 [`aef7e65`](https://github.com/Yoonmoonsik/dnd55e/commit/aef7e656adc844b88283da4540f771a613343370) · *yoonmoonsik*
+
+Added support for choosing between grappling or pushing targets after an Unarmed Strike hit.
+Implemented new interrupt handling and passive trigger logic to support the updated combat interaction flow.
 
 ---
 
