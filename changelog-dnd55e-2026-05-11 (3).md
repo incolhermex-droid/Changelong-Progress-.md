@@ -9,6 +9,7 @@
 [`bd03744`](https://github.com/Yoonmoonsik/dnd55e/commit/bd03744cacddee44de3bacb31222abb50b19b3ae) · *yoonmoonsik*
 
 Version bump to 4.3.12.11. Updates the mod's internal MD5 checksum and Version64 identifier in `meta.lsx` to reflect the latest build.
+
 ---
 
 ### 🔴 Merge pull request #213 from incolhermex-droid/patch-6
@@ -16,6 +17,7 @@ Version bump to 4.3.12.11. Updates the mod's internal MD5 checksum and Version64
 [`19be047`](https://github.com/Yoonmoonsik/dnd55e/commit/19be0470cb7fe17f33157253a34c54b30466eee8) · *Yoonmoonsik*
 
 Added Latin Spanish localization entries for the **Elven Accuracy** feat, including its name (*Precisión Élfica*) and full description. Players using the Spanish localization will now see correct translations for this feat's passive reroll mechanic on Dexterity, Intelligence, Wisdom, or Charisma attack rolls made with Advantage.
+
 ---
 
 ### 🔴 Merge pull request #214 from incolhermex-droid/patch-7
@@ -23,6 +25,7 @@ Added Latin Spanish localization entries for the **Elven Accuracy** feat, includ
 [`dcd67c7`](https://github.com/Yoonmoonsik/dnd55e/commit/dcd67c79dcda302deb5d23bf1aece4cee2eb466e) · *Yoonmoonsik*
 
 Updated the Castilian Spanish localization (`spanish.xml`) with two fixes: the **Goliath** race description now correctly includes the carry weight bonus from Giant Ancestry, and **Elven Accuracy** feat entries (*Precisión Élfica*) have been added with their name and full passive description.
+
 ---
 
 ### 🔴 fix #209
@@ -31,6 +34,7 @@ Updated the Castilian Spanish localization (`spanish.xml`) with two fixes: the *
 
 Fixed the College of Dance “Inspiring Movement” description to correctly state that allied movement no longer provokes Opportunity Attacks.
 Updated related localization, spell data references, and generated target data to reflect the corrected tooltip behavior.
+
 ---
 
 ## May 8, 2026
@@ -38,6 +42,9 @@ Updated related localization, spell data references, and generated target data t
 ### 🔵 Update 1.0.3 spanish.xml
 
 [`caee4b7`](https://github.com/Yoonmoonsik/dnd55e/commit/caee4b711295951a9329e19b9c90c3959153c9a8) · *incolhermex-droid*
+
+Updated Spanish localization entries for Elven Accuracy and Goliath racial traits.
+Clarified Goliath carry weight increase wording and corrected missing translation details in the Spanish localization file.
 
 ---
 
@@ -51,11 +58,17 @@ Updated related localization, spell data references, and generated target data t
 
 [`fa8c917`](https://github.com/Yoonmoonsik/dnd55e/commit/fa8c9178c6cb2ec7ac6269b36002c3fc4abf9deb) · *yoonmoonsik*
 
+Updated Latin American Spanish localization for Elven Accuracy and related description entries.
+Fixed missing translation text and corrected formatting issues in the localization XML file.
+
 ---
 
 ### 🔴 fix #208
 
 [`4a8a291`](https://github.com/Yoonmoonsik/dnd55e/commit/4a8a291889b30144d6a8e0c7c3e4651bff88c18c) · *yoonmoonsik*
+
+Fixed Fount of Moonlight status effects by adding Radiant damage resistance to the associated boost data.
+Updated generated status entries to properly apply the intended defensive effect during gameplay.
 
 ---
 
