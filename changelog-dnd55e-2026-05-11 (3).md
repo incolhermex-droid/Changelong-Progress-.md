@@ -9,7 +9,6 @@
 [`bd03744`](https://github.com/Yoonmoonsik/dnd55e/commit/bd03744cacddee44de3bacb31222abb50b19b3ae) · *yoonmoonsik*
 
 Version bump to 4.3.12.11. Updates the mod's internal MD5 checksum and Version64 identifier in `meta.lsx` to reflect the latest build.
-
 ---
 
 ### 🔴 Merge pull request #213 from incolhermex-droid/patch-6
@@ -17,7 +16,6 @@ Version bump to 4.3.12.11. Updates the mod's internal MD5 checksum and Version64
 [`19be047`](https://github.com/Yoonmoonsik/dnd55e/commit/19be0470cb7fe17f33157253a34c54b30466eee8) · *Yoonmoonsik*
 
 Added Latin Spanish localization entries for the **Elven Accuracy** feat, including its name (*Precisión Élfica*) and full description. Players using the Spanish localization will now see correct translations for this feat's passive reroll mechanic on Dexterity, Intelligence, Wisdom, or Charisma attack rolls made with Advantage.
-
 ---
 
 ### 🔴 Merge pull request #214 from incolhermex-droid/patch-7
@@ -25,13 +23,14 @@ Added Latin Spanish localization entries for the **Elven Accuracy** feat, includ
 [`dcd67c7`](https://github.com/Yoonmoonsik/dnd55e/commit/dcd67c79dcda302deb5d23bf1aece4cee2eb466e) · *Yoonmoonsik*
 
 Updated the Castilian Spanish localization (`spanish.xml`) with two fixes: the **Goliath** race description now correctly includes the carry weight bonus from Giant Ancestry, and **Elven Accuracy** feat entries (*Precisión Élfica*) have been added with their name and full passive description.
-
 ---
 
 ### 🔴 fix #209
 
 [`45f43be`](https://github.com/Yoonmoonsik/dnd55e/commit/45f43be527cd002436b010ae1c87e95232debd0d) · *yoonmoonsik*
 
+Fixed the College of Dance “Inspiring Movement” description to correctly state that allied movement no longer provokes Opportunity Attacks.
+Updated related localization, spell data references, and generated target data to reflect the corrected tooltip behavior.
 ---
 
 ## May 8, 2026
