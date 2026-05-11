@@ -154,6 +154,7 @@ Fixed an issue with the **Dual Wielder** feat where the off-hand attack spell wa
 ### 🔴 fix #169
 
 [`10881ae`](https://github.com/Yoonmoonsik/dnd55e/commit/10881ae8cb307c3a044baffff36e6910c6f370a2) · *yoonmoonsik*
+
 Fixed **Wrath of the Sea** (Circle of the Sea Druid Wild Shape) not applying its once-per-turn cooldown correctly. Added a first-turn status (`WILDSHAPE_SEA_FIRSTTURN`) that grants a free-cost cast of the ability on the turn Wild Shape is entered, resolving the interaction with the turn tracking system.
 
 ---
@@ -161,6 +162,7 @@ Fixed **Wrath of the Sea** (Circle of the Sea Druid Wild Shape) not applying its
 ### 🔴 fix #196
 
 [`420be40`](https://github.com/Yoonmoonsik/dnd55e/commit/420be406cc150e196762f8ca838fdd258e24b894) · *yoonmoonsik*
+
 Resolved a reported bug affecting combat spell or passive behavior. Internal stat and condition logic was adjusted to correct the broken interaction flagged in issue #196.
 
 ---
@@ -168,6 +170,7 @@ Resolved a reported bug affecting combat spell or passive behavior. Internal sta
 ### 🔴 fix #191
 
 [`72f0667`](https://github.com/Yoonmoonsik/dnd55e/commit/72f06679083e90cfec4ade889d5111f61feeea97) · *yoonmoonsik*
+
 Addressed the bug reported in issue #191. Corrected faulty stat entries or spell logic causing an unintended behavior in combat or character mechanics.
 
 ---
@@ -175,6 +178,7 @@ Addressed the bug reported in issue #191. Corrected faulty stat entries or spell
 ### ⚪ 4.3.12.7
 
 [`3e43c6b`](https://github.com/Yoonmoonsik/dnd55e/commit/3e43c6b7a1b0986c475482abc5c59c61fa60debf) · *yoonmoonsik*
+
 Version bump to 4.3.12.7. Updates internal build metadata in `meta.lsx`.
 
 ---
@@ -182,6 +186,7 @@ Version bump to 4.3.12.7. Updates internal build metadata in `meta.lsx`.
 ### 🔴 Merge pull request #192 from incolhermex-droid/patch-4
 
 [`883cec3`](https://github.com/Yoonmoonsik/dnd55e/commit/883cec324a90eea6ae41e075ca813f5b7939fd96) · *Yoonmoonsik*
+
 Merged community contribution from `incolhermex-droid` (patch-4). Integrates fixes or localization updates submitted via pull request #192.
 
 ---
@@ -191,6 +196,7 @@ Merged community contribution from `incolhermex-droid` (patch-4). Integrates fix
 ### 🔵 Update1 spanish.xml
 
 [`0f8fbcf`](https://github.com/Yoonmoonsik/dnd55e/commit/0f8fbcf9a073b45a89560ed3b7414aa37c0e2272) · *incolhermex-droid*
+
 Updated the Castilian Spanish localization file with new or corrected translation entries. Part of the ongoing community effort to keep the Spanish translation up to date with mod content.
 
 ---
@@ -200,6 +206,7 @@ Updated the Castilian Spanish localization file with new or corrected translatio
 ### ⚪ 4.3.12.6
 
 [`6995399`](https://github.com/Yoonmoonsik/dnd55e/commit/6995399f4c8682f25a29982d47de920e51d3ca17) · *yoonmoonsik*
+
 Version bump to 4.3.12.6. Updates internal build metadata in `meta.lsx`.
 
 ---
@@ -207,6 +214,7 @@ Version bump to 4.3.12.6. Updates internal build metadata in `meta.lsx`.
 ### 🔴 fix #170
 
 [`a08b7f6`](https://github.com/Yoonmoonsik/dnd55e/commit/a08b7f6ec643a8896da670b2ac0f8f16c9a225b7) · *yoonmoonsik*
+
 Fixed the bug reported in issue #170. Corrected a broken passive, spell, or trigger condition causing incorrect behavior in the affected mechanic.
 
 ---
@@ -214,6 +222,7 @@ Fixed the bug reported in issue #170. Corrected a broken passive, spell, or trig
 ### 🔴 fix #172
 
 [`8fd9a30`](https://github.com/Yoonmoonsik/dnd55e/commit/8fd9a30137091d7f7246f83d8e4c23851d3effb4) · *yoonmoonsik*
+
 Fixed the bug reported in issue #172. Adjusted stat definitions or spell conditions to resolve the unintended interaction or missing functionality.
 
 ---
@@ -221,6 +230,7 @@ Fixed the bug reported in issue #172. Adjusted stat definitions or spell conditi
 ### 🔴 fix #174
 
 [`ba279c2`](https://github.com/Yoonmoonsik/dnd55e/commit/ba279c2e7d510cdaf1ea072ee630bf0e0082f503) · *yoonmoonsik*
+
 Fixed the bug reported in issue #174. Corrected faulty logic in the relevant spell, passive, or status effect.
 
 ---
@@ -230,6 +240,7 @@ Fixed the bug reported in issue #174. Corrected faulty logic in the relevant spe
 ### ⚪ 4.3.12.5
 
 [`94fc0c3`](https://github.com/Yoonmoonsik/dnd55e/commit/94fc0c32e043b9e559728d06bbd7416849664c2a) · *yoonmoonsik*
+
 Version bump to 4.3.12.5. Updates internal build metadata in `meta.lsx`.
 
 ---
@@ -237,6 +248,7 @@ Version bump to 4.3.12.5. Updates internal build metadata in `meta.lsx`.
 ### 🟣 updtae Spanish language
 
 [`f63b668`](https://github.com/Yoonmoonsik/dnd55e/commit/f63b668b686c7401870e6cdaa2e3682fd3aca853) · *yoonmoonsik*
+
 Updated the Spanish localization file with new translation entries to cover recently added or modified mod content.
 
 ---
@@ -244,6 +256,7 @@ Updated the Spanish localization file with new translation entries to cover rece
 ### 🔴 fix holyavenger aura
 
 [`4678db8`](https://github.com/Yoonmoonsik/dnd55e/commit/4678db86754ca3e19ee0f2acb540b1f4a99135c5) · *yoonmoonsik*
+
 Fixed the **Holy Avenger** weapon aura not functioning correctly. Corrected the aura's passive trigger or boost logic so it properly applies its radiant damage bonus and advantage on saving throws against spells to nearby allies.
 
 ---
@@ -251,6 +264,7 @@ Fixed the **Holy Avenger** weapon aura not functioning correctly. Corrected the 
 ### ⚪ 4.3.12.3
 
 [`ad2d8ff`](https://github.com/Yoonmoonsik/dnd55e/commit/ad2d8ffabcb7ee0462597ef8e2c2825225b4020f) · *yoonmoonsik*
+
 Version bump to 4.3.12.3. Updates internal build metadata in `meta.lsx`.
 
 ---
@@ -258,6 +272,7 @@ Version bump to 4.3.12.3. Updates internal build metadata in `meta.lsx`.
 ### 🔴 fix Charger_Push
 
 [`50ba4b9`](https://github.com/Yoonmoonsik/dnd55e/commit/50ba4b904a75ac2cc57b3d032e1a4fdfe7b14786) · *yoonmoonsik*
+
 Fixed the **Charger** feat's push effect not working as intended. Corrected the shove/push spell logic triggered after a Dash action charge attack so it correctly knocks back targets.
 
 ---
@@ -265,6 +280,7 @@ Fixed the **Charger** feat's push effect not working as intended. Corrected the 
 ### 🔴 minor fix
 
 [`4324315`](https://github.com/Yoonmoonsik/dnd55e/commit/4324315092a6c6d128df2c67a4b9bc2bd933b2b4) · *yoonmoonsik*
+
 Applied a minor correction to a stat entry, condition, or flag that was causing a small unintended behavior in the mod.
 
 ---
@@ -272,6 +288,7 @@ Applied a minor correction to a stat entry, condition, or flag that was causing 
 ### 🟢 add tooltips
 
 [`26990fa`](https://github.com/Yoonmoonsik/dnd55e/commit/26990fa10f0043974190f9102f1ffa5da5e0e867) · *yoonmoonsik*
+
 Added missing tooltips to various abilities, spells, or passives. Players will now see proper in-game descriptions when hovering over the affected mechanics.
 
 ---
@@ -279,6 +296,7 @@ Added missing tooltips to various abilities, spells, or passives. Players will n
 ### 🔴 fix #163
 
 [`ee9168c`](https://github.com/Yoonmoonsik/dnd55e/commit/ee9168cc211e024f2e6ae6acbfcd6a026b9a4d42) · *yoonmoonsik*
+
 Fixed the bug reported in issue #163. Resolved a faulty interaction in the relevant spell, passive, or status that was causing unintended behavior.
 
 ---
@@ -286,6 +304,7 @@ Fixed the bug reported in issue #163. Resolved a faulty interaction in the relev
 ### 🔴 fix #155
 
 [`f6284fb`](https://github.com/Yoonmoonsik/dnd55e/commit/f6284fb0e7972e49d4091eb11c47590af1537da8) · *yoonmoonsik*
+
 Additional fix for issue #155. Addressed a remaining edge case in the previously reported mechanic.
 
 ---
@@ -295,6 +314,7 @@ Additional fix for issue #155. Addressed a remaining edge case in the previously
 ### ⚪ 4.3.12.2
 
 [`7a0b0aa`](https://github.com/Yoonmoonsik/dnd55e/commit/7a0b0aada1e90443ab857c15accb4ea5c843fe09) · *yoonmoonsik*
+
 Version bump to 4.3.12.2. Updates internal build metadata in `meta.lsx`.
 
 ---
@@ -302,6 +322,7 @@ Version bump to 4.3.12.2. Updates internal build metadata in `meta.lsx`.
 ### 🔴 fix #155
 
 [`f901f9c`](https://github.com/Yoonmoonsik/dnd55e/commit/f901f9c1df4bf3ffd2610533dc1c21be076fea33) · *yoonmoonsik*
+
 Fixed the bug reported in issue #155. Corrected a broken spell, passive, or status interaction flagged by the community.
 
 ---
@@ -309,6 +330,7 @@ Fixed the bug reported in issue #155. Corrected a broken spell, passive, or stat
 ### 🔴 fix #156
 
 [`fdfb861`](https://github.com/Yoonmoonsik/dnd55e/commit/fdfb86168a5b99c2fbef4ebd62b9f4545bd78083) · *yoonmoonsik*
+
 Fixed the bug reported in issue #156. Adjusted the relevant stat or spell logic to restore expected behavior.
 
 ---
@@ -316,6 +338,7 @@ Fixed the bug reported in issue #156. Adjusted the relevant stat or spell logic 
 ### 🔴 minor fixes
 
 [`d8533f7`](https://github.com/Yoonmoonsik/dnd55e/commit/d8533f7cc65a7823d8e37f7068831267547e3161) · *yoonmoonsik*
+
 Applied several small corrections across multiple stat entries or spell definitions to address miscellaneous reported issues.
 
 ---
@@ -325,6 +348,7 @@ Applied several small corrections across multiple stat entries or spell definiti
 ### ⚪ 4.3.12.1
 
 [`bc3df0a`](https://github.com/Yoonmoonsik/dnd55e/commit/bc3df0aeef4c9cb98d25bf2e2922897e50a56929) · *yoonmoonsik*
+
 Version bump to 4.3.12.1. Updates internal build metadata in `meta.lsx`.
 
 ---
@@ -332,6 +356,7 @@ Version bump to 4.3.12.1. Updates internal build metadata in `meta.lsx`.
 ### ⚪ 4.3.12
 
 [`dfde6c3`](https://github.com/Yoonmoonsik/dnd55e/commit/dfde6c3ec98664a3f7f1e49573e3036631f05268) · *yoonmoonsik*
+
 Version bump to 4.3.12. Updates internal build metadata in `meta.lsx`.
 
 ---
@@ -339,6 +364,7 @@ Version bump to 4.3.12. Updates internal build metadata in `meta.lsx`.
 ### 🔴 fix #154
 
 [`e937cc2`](https://github.com/Yoonmoonsik/dnd55e/commit/e937cc20b9c4337221932735cac2934cee2432a3) · *yoonmoonsik*
+
 Fixed the bug reported in issue #154. Corrected the relevant spell or passive stat logic causing the unintended behavior.
 
 ---
@@ -346,6 +372,7 @@ Fixed the bug reported in issue #154. Corrected the relevant spell or passive st
 ### 🟢 add Dhampir and Kalashtar
 
 [`3b6475b`](https://github.com/Yoonmoonsik/dnd55e/commit/3b6475bce93f1d79b0da0f08f6bcf47e214d2e81) · *yoonmoonsik*
+
 Added **Dhampir** and **Kalashtar** as playable lineages. Implements their unique racial traits — Dhampir's vampiric bite and Spider Climb, and Kalashtar's telepathic abilities and psychic resistance — as defined in the 2024 D&D rules.
 
 ---
@@ -355,6 +382,7 @@ Added **Dhampir** and **Kalashtar** as playable lineages. Implements their uniqu
 ### ⚪ 4.3.11
 
 [`cb3a0f5`](https://github.com/Yoonmoonsik/dnd55e/commit/cb3a0f5d221f3793d84eb51066594c1edd68cb04) · *yoonmoonsik*
+
 Version bump to 4.3.11. Updates internal build metadata in `meta.lsx`.
 
 ---
@@ -362,6 +390,7 @@ Version bump to 4.3.11. Updates internal build metadata in `meta.lsx`.
 ### 🔴 fix #133
 
 [`c85ec9e`](https://github.com/Yoonmoonsik/dnd55e/commit/c85ec9e58d6894a68fd7163b01f571780da5a2f3) · *yoonmoonsik*
+
 Fixed the bug reported in issue #133. Corrected a broken passive or spell interaction that was causing incorrect behavior for the affected mechanic.
 
 ---
@@ -369,6 +398,7 @@ Fixed the bug reported in issue #133. Corrected a broken passive or spell intera
 ### 🟢 add new druid subclass: Circle of Dreams
 
 [`852a9b7`](https://github.com/Yoonmoonsik/dnd55e/commit/852a9b700dd02ec47b0cf292d20b4ca2a11df2dd) · *yoonmoonsik*
+
 Added the **Circle of Dreams** as a new Druid subclass. Implements its full feature set including Balm of the Summer Court (healing pool), Hearth of Moonlight and Shadow (short rest camp bonus), and Hidden Paths (teleportation via the Feywild).
 
 ---
@@ -376,6 +406,7 @@ Added the **Circle of Dreams** as a new Druid subclass. Implements its full feat
 ### ⚪ 4.3.10.4
 
 [`c055548`](https://github.com/Yoonmoonsik/dnd55e/commit/c055548237908aa60dbb75e9a7c12927b92e7a68) · *yoonmoonsik*
+
 Version bump to 4.3.10.4. Updates internal build metadata in `meta.lsx`.
 
 ---
@@ -383,6 +414,7 @@ Version bump to 4.3.10.4. Updates internal build metadata in `meta.lsx`.
 ### 🔵 update spanish
 
 [`f12da2a`](https://github.com/Yoonmoonsik/dnd55e/commit/f12da2a34a871e4cfdd65ec2838ed12de42e62e8) · *yoonmoonsik*
+
 Updated the Spanish localization file with corrections or new entries to reflect the latest mod content changes.
 
 ---
@@ -390,6 +422,7 @@ Updated the Spanish localization file with corrections or new entries to reflect
 ### 🔴 fix #149
 
 [`b9a2f13`](https://github.com/Yoonmoonsik/dnd55e/commit/b9a2f13be1f06ab034857e93bb477ffa1f4342ea) · *yoonmoonsik*
+
 Fixed the bug reported in issue #149. Adjusted the relevant spell or passive condition to restore expected functionality.
 
 ---
@@ -397,6 +430,7 @@ Fixed the bug reported in issue #149. Adjusted the relevant spell or passive con
 ### 🔴 fix #144
 
 [`1cafa1b`](https://github.com/Yoonmoonsik/dnd55e/commit/1cafa1b002e620311d538e32a7942df7e28c70c1) · *yoonmoonsik*
+
 Fixed the bug reported in issue #144. Corrected a broken interaction in the affected mechanic's stat or trigger logic.
 
 ---
@@ -404,6 +438,7 @@ Fixed the bug reported in issue #144. Corrected a broken interaction in the affe
 ### 🔴 fix #148
 
 [`f2f249d`](https://github.com/Yoonmoonsik/dnd55e/commit/f2f249d6dd0d2b77954cffd21d4b085899da11de) · *yoonmoonsik*
+
 Fixed the bug reported in issue #148. Resolved the reported unintended behavior by adjusting the relevant spell, passive, or condition entry.
 
 ---
@@ -413,6 +448,7 @@ Fixed the bug reported in issue #148. Resolved the reported unintended behavior 
 ### ⚪ 4.3.10.2
 
 [`03c4832`](https://github.com/Yoonmoonsik/dnd55e/commit/03c4832d0c79d7b6c14bd56b0e21c804106e29c6) · *yoonmoonsik*
+
 Version bump to 4.3.10.2. Updates internal build metadata in `meta.lsx`.
 
 ---
@@ -420,6 +456,7 @@ Version bump to 4.3.10.2. Updates internal build metadata in `meta.lsx`.
 ### 🔴 fix throwable pike
 
 [`66fe7fb`](https://github.com/Yoonmoonsik/dnd55e/commit/66fe7fbfcc5fb8519647c82f4085ced0e8db03df) · *yoonmoonsik*
+
 Fixed the **Pike** weapon not working correctly when thrown. Corrected the throwable weapon stat entry so the pike can be used as a thrown weapon as per the 2024 rules.
 
 ---
@@ -427,6 +464,7 @@ Fixed the **Pike** weapon not working correctly when thrown. Corrected the throw
 ### 🔴 fix Rush_Charger_Push
 
 [`5f41e71`](https://github.com/Yoonmoonsik/dnd55e/commit/5f41e71ca71181cee8d77c7af0cdf9ed51966e3b) · *yoonmoonsik*
+
 Fixed the **Charger** feat's rush and push interaction. Corrected the spell trigger so the push effect after a charge correctly applies its forced movement to the target.
 
 ---
@@ -436,6 +474,7 @@ Fixed the **Charger** feat's rush and push interaction. Corrected the spell trig
 ### 🟢 4.3.10.1 Add Moon Sickle
 
 [`53ce50f`](https://github.com/Yoonmoonsik/dnd55e/commit/53ce50fb401717568a6177be4905f0f0c67b1d23) · *yoonmoonsik*
+
 Added the **Moon Sickle** as a magic weapon. This druid-focused item grants a bonus to spell attack rolls and spell save DCs, and adds 1d4 radiant damage to the weapon's attacks, as per the 2024 DMG.
 
 ---
@@ -443,6 +482,7 @@ Added the **Moon Sickle** as a magic weapon. This druid-focused item grants a bo
 ### ⚪ 4.3.10
 
 [`d7a7582`](https://github.com/Yoonmoonsik/dnd55e/commit/d7a75828fcf86eedf5b988ddded04b857dc8b3df) · *yoonmoonsik*
+
 Version bump to 4.3.10. Updates internal build metadata in `meta.lsx`.
 
 ---
@@ -450,6 +490,7 @@ Version bump to 4.3.10. Updates internal build metadata in `meta.lsx`.
 ### 🟣 Spanish Support (Credit: HermexVar, mod.io)
 
 [`1e2c5d6`](https://github.com/Yoonmoonsik/dnd55e/commit/1e2c5d69445cf5e6d0c42649e36fd5f25fac2891) · *yoonmoonsik*
+
 Added official **Castilian Spanish localization** support to the mod, credited to **HermesVar** (mod.io). This marks the first full integration of the Spanish translation into the main repository.
 
 ---
@@ -457,6 +498,7 @@ Added official **Castilian Spanish localization** support to the mod, credited t
 ### ⚪ Merge pull request #135 from Shiina18/main
 
 [`dc041c6`](https://github.com/Yoonmoonsik/dnd55e/commit/dc041c6f56d7cced47c7c8d924ffc19596866a90) · *Yoonmoonsik*
+
 Merged community contribution from `Shiina18`. Integrates English localization typo corrections submitted via pull request #135.
 
 ---
@@ -464,6 +506,7 @@ Merged community contribution from `Shiina18`. Integrates English localization t
 ### 🔴 fix shillelagh
 
 [`eb620a7`](https://github.com/Yoonmoonsik/dnd55e/commit/eb620a78fec2c3027d5dd61223c33bfdbf1cc59c) · *yoonmoonsik*
+
 Fixed the **Shillelagh** cantrip not functioning correctly. Corrected the spell's stat logic so it properly uses the caster's Wisdom modifier for attack and damage rolls when wielding a club or quarterstaff.
 
 ---
@@ -471,6 +514,7 @@ Fixed the **Shillelagh** cantrip not functioning correctly. Corrected the spell'
 ### 🔴 fix: correct clear typos in english localization xml
 
 [`a3e638e`](https://github.com/Yoonmoonsik/dnd55e/commit/a3e638ed6eeaf124fb9c346745d09eca9a1a7c51) · *shiina*
+
 Corrected several typos in the English localization XML file. Improves the readability and accuracy of ability and spell descriptions shown to English-speaking players.
 
 ---
@@ -478,6 +522,7 @@ Corrected several typos in the English localization XML file. Improves the reada
 ### ⚪ 4.3.9.2
 
 [`e219ce8`](https://github.com/Yoonmoonsik/dnd55e/commit/e219ce86f1e5639421b5912af5ec7290361474a6) · *yoonmoonsik*
+
 Version bump to 4.3.9.2. Updates internal build metadata in `meta.lsx`.
 
 ---
@@ -485,6 +530,7 @@ Version bump to 4.3.9.2. Updates internal build metadata in `meta.lsx`.
 ### 🔴 fix steadyaim
 
 [`46a1bea`](https://github.com/Yoonmoonsik/dnd55e/commit/46a1bea532c10c0eac79bc2930f38f25cb36318c) · *yoonmoonsik*
+
 Fixed the **Steady Aim** optional Rogue feature not working as intended. Corrected the passive or spell logic so it properly grants Advantage on the next attack roll in exchange for forfeiting movement on that turn.
 
 ---
@@ -494,6 +540,7 @@ Fixed the **Steady Aim** optional Rogue feature not working as intended. Correct
 ### 🔴 4.3.9.1 fix #128
 
 [`f07bb00`](https://github.com/Yoonmoonsik/dnd55e/commit/f07bb00a3dee2f371d0950b587de7d52e8985f11) · *yoonmoonsik*
+
 Fixed the bug reported in issue #128. Hotfix applied immediately after the 4.3.9 release to address a breaking interaction introduced in that update.
 
 ---
@@ -501,6 +548,7 @@ Fixed the bug reported in issue #128. Hotfix applied immediately after the 4.3.9
 ### 🔵 4.3.9 update Artillerist Artificer
 
 [`c32a69e`](https://github.com/Yoonmoonsik/dnd55e/commit/c32a69e19074c8197f5725cf15edfbcf16db4d02) · *yoonmoonsik*
+
 Updated the **Artillerist Artificer** subclass to align with the 2024 rules. Revisions include the Eldritch Cannon feature set (Force Ballista, Flamethrower, Protector modes), Arcane Firearm, and Explosive Cannon improvements.
 
 ---
@@ -508,6 +556,7 @@ Updated the **Artillerist Artificer** subclass to align with the 2024 rules. Rev
 ### ⚪ 4.3.8.6
 
 [`4b2f09f`](https://github.com/Yoonmoonsik/dnd55e/commit/4b2f09f9771efd7fac70ad3ceb59fd1e277ea624) · *yoonmoonsik*
+
 Version bump to 4.3.8.6. Updates internal build metadata in `meta.lsx`.
 
 ---
@@ -515,6 +564,7 @@ Version bump to 4.3.8.6. Updates internal build metadata in `meta.lsx`.
 ### ⚪ 4.3.8.5
 
 [`37a0f45`](https://github.com/Yoonmoonsik/dnd55e/commit/37a0f455398d7634f0b3ff91b1dd7707ddcce79e) · *yoonmoonsik*
+
 Version bump to 4.3.8.5. Updates internal build metadata in `meta.lsx`.
 
 ---
@@ -522,6 +572,7 @@ Version bump to 4.3.8.5. Updates internal build metadata in `meta.lsx`.
 ### 🔴 fix minor bugs
 
 [`b18fa90`](https://github.com/Yoonmoonsik/dnd55e/commit/b18fa90d9d777ae9ecf279ad6f9f35102a0d44ab) · *yoonmoonsik*
+
 Applied minor corrections across multiple stat or spell entries to address small bugs reported after the 4.3.8 update.
 
 ---
@@ -529,6 +580,7 @@ Applied minor corrections across multiple stat or spell entries to address small
 ### ⚪ 4.3.8.4
 
 [`fda1c41`](https://github.com/Yoonmoonsik/dnd55e/commit/fda1c41bb6328dd57218b94d4f97866a320993a0) · *yoonmoonsik*
+
 Version bump to 4.3.8.4. Updates internal build metadata in `meta.lsx`.
 
 ---
@@ -538,6 +590,7 @@ Version bump to 4.3.8.4. Updates internal build metadata in `meta.lsx`.
 ### 🔴 fix create void
 
 [`969b7be`](https://github.com/Yoonmoonsik/dnd55e/commit/969b7be23727926047888faeb375e369de14e0c0) · *yoonmoonsik*
+
 Fixed the **Create Void** ability not functioning correctly. Corrected the spell or passive trigger logic to ensure the effect applies as intended.
 
 ---
@@ -545,6 +598,7 @@ Fixed the **Create Void** ability not functioning correctly. Corrected the spell
 ### ⚪ 4.3.8.3
 
 [`6cea3e1`](https://github.com/Yoonmoonsik/dnd55e/commit/6cea3e1ee3868e28d38496b44b4856bba3cbf6e6) · *yoonmoonsik*
+
 Version bump to 4.3.8.3. Updates internal build metadata in `meta.lsx`.
 
 ---
@@ -552,6 +606,7 @@ Version bump to 4.3.8.3. Updates internal build metadata in `meta.lsx`.
 ### 🔴 fix #122
 
 [`78c50ae`](https://github.com/Yoonmoonsik/dnd55e/commit/78c50ae9e2c41d2061367f3da86e261aadffbe2c) · *yoonmoonsik*
+
 Fixed the bug reported in issue #122. Corrected the affected spell or passive stat entry to restore correct behavior.
 
 ---
@@ -559,6 +614,7 @@ Fixed the bug reported in issue #122. Corrected the affected spell or passive st
 ### 🔴 fix heavy armor penalty
 
 [`ea261ca`](https://github.com/Yoonmoonsik/dnd55e/commit/ea261ca1f99fde000c50d6fc761f725603b5e4e0) · *yoonmoonsik*
+
 Fixed the **Heavy Armor** Strength requirement penalty not applying correctly. Characters without the minimum Strength score now properly suffer the movement speed reduction when wearing heavy armor, as per the 2024 rules.
 
 ---
@@ -566,6 +622,7 @@ Fixed the **Heavy Armor** Strength requirement penalty not applying correctly. C
 ### 🔴 fix #121
 
 [`a927c5d`](https://github.com/Yoonmoonsik/dnd55e/commit/a927c5dcc0b3023d736f1e27d0cd545ce40f6354) · *yoonmoonsik*
+
 Fixed the bug reported in issue #121. Adjusted the relevant stat or condition logic to resolve the unintended behavior.
 
 ---
@@ -575,6 +632,7 @@ Fixed the bug reported in issue #121. Adjusted the relevant stat or condition lo
 ### 🔴 4.3.8.2 fix Force Demolisher
 
 [`6490b7b`](https://github.com/Yoonmoonsik/dnd55e/commit/6490b7b4059a55e2421ba8acd16123d9291c1e99) · *yoonmoonsik*
+
 Fixed the **Force Demolisher** Artillerist Artificer feature not working correctly. Corrected the explosion spell logic or passive condition to ensure it properly deals force damage in an area when the Eldritch Cannon is destroyed.
 
 ---
@@ -582,6 +640,7 @@ Fixed the **Force Demolisher** Artillerist Artificer feature not working correct
 ### 🔴 4.3.8.1 fix Armorer
 
 [`14adf66`](https://github.com/Yoonmoonsik/dnd55e/commit/14adf6606a2fae8430215aaa89b165fe40b05d44) · *yoonmoonsik*
+
 Hotfix for the **Armorer Artificer** subclass introduced in 4.3.8. Corrected a broken interaction in the armor model integration or spell/passive stat entries.
 
 ---
@@ -589,6 +648,7 @@ Hotfix for the **Armorer Artificer** subclass introduced in 4.3.8. Corrected a b
 ### 🔵 4.3.8 update armorer artificer
 
 [`f04fbe8`](https://github.com/Yoonmoonsik/dnd55e/commit/f04fbe80c3889faa7cc89716ccc7fd3d379ceafa) · *yoonmoonsik*
+
 Updated the **Armorer Artificer** subclass with its full 2024 feature set, including Arcane Armor (Guardian and Infiltrator models), armor modifications, and the Extra Attack integration for the subclass's specialized attacks.
 
 ---
@@ -596,6 +656,7 @@ Updated the **Armorer Artificer** subclass with its full 2024 feature set, inclu
 ### ⚪ 4.3.7.1
 
 [`208585b`](https://github.com/Yoonmoonsik/dnd55e/commit/208585bd50b92de80d430df5952b502983a257f4) · *yoonmoonsik*
+
 Version bump to 4.3.7.1. Updates internal build metadata in `meta.lsx`.
 
 ---
@@ -603,6 +664,7 @@ Version bump to 4.3.7.1. Updates internal build metadata in `meta.lsx`.
 ### 🔴 fix #119
 
 [`742adc4`](https://github.com/Yoonmoonsik/dnd55e/commit/742adc4fcd97dac311783b2b4b486f4af7baad37) · *yoonmoonsik*
+
 Fixed the bug reported in issue #119. Corrected a faulty stat or spell condition causing an unintended interaction in the mod.
 
 ---
@@ -612,6 +674,7 @@ Fixed the bug reported in issue #119. Corrected a faulty stat or spell condition
 ### 🔵 update missing control UI icons
 
 [`ec5ac1a`](https://github.com/Yoonmoonsik/dnd55e/commit/ec5ac1a965d9608a190a62c72b405ab6355de014) · *yoonmoonsik*
+
 Added missing UI icons for control abilities in the action bar. Players will now see proper icons instead of blank or placeholder graphics for the affected abilities.
 
 ---
@@ -619,6 +682,7 @@ Added missing UI icons for control abilities in the action bar. Players will now
 ### ⚪ 4.3.7
 
 [`a8feaa4`](https://github.com/Yoonmoonsik/dnd55e/commit/a8feaa48ab85854627914e0ad984738be7f80be7) · *yoonmoonsik*
+
 Version bump to 4.3.7. Updates internal build metadata in `meta.lsx`.
 
 ---
@@ -626,6 +690,7 @@ Version bump to 4.3.7. Updates internal build metadata in `meta.lsx`.
 ### 🟢 add holy avenger
 
 [`963fd67`](https://github.com/Yoonmoonsik/dnd55e/commit/963fd6784fc22c4b5ebd1f3d10425e3e3fcb9e89) · *yoonmoonsik*
+
 Added the **Holy Avenger** as a legendary magic weapon. Implements its full feature set: +3 bonus to attack and damage rolls, extra radiant damage against fiends and undead, and an aura that grants advantage on saving throws against spells to nearby allies when wielded by a Paladin.
 
 ---
@@ -633,6 +698,7 @@ Added the **Holy Avenger** as a legendary magic weapon. Implements its full feat
 ### 🔴 4.3.6.3 fix #115
 
 [`75cf480`](https://github.com/Yoonmoonsik/dnd55e/commit/75cf480df14c2f776b7c18669cd9f8ed35336a91) · *yoonmoonsik*
+
 Fixed the bug reported in issue #115. Patch applied in version 4.3.6.3 to address a breaking behavior introduced in the previous update.
 
 ---
