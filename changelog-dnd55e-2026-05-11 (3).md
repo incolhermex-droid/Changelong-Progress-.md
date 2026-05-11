@@ -1,6 +1,49 @@
 # 📜 Changelog — DnD 5.5e All-in-One BEYOND
 > **Repository:** [Yoonmoonsik/dnd55e](https://github.com/Yoonmoonsik/dnd55e) · **Branch:** `main`
-> **Generated:** May 10, 2026
+
+## May 11, 2026
+
+### 🟢 Add SLevel 1, 2 Draconic Sorcery Spells #220
+
+[`ae458d6`](https://github.com/Yoonmoonsik/dnd55e/commit/ae458d675b1fdc9bd3bc063239b1ae5a8c07d183) · *yoonmoonsik*
+
+---
+
+### 🔴 fix #223
+
+[`cb553f4`](https://github.com/Yoonmoonsik/dnd55e/commit/cb553f46cb2ffa1faaa30c19a8805f3ab72ed2c1) · *yoonmoonsik*
+
+---
+
+### 🔴 Merge pull request #221 from incolhermex-droid/patch-8
+
+[`8e96759`](https://github.com/Yoonmoonsik/dnd55e/commit/8e96759f513fde5991fe0bbcb4e918d698c71281) · *Yoonmoonsik*
+
+---
+
+### 🔴 Merge pull request #222 from incolhermex-droid/patch-9
+
+[`3bf098f`](https://github.com/Yoonmoonsik/dnd55e/commit/3bf098fc5839e308b48c96a202cfbe42d7a51171) · *Yoonmoonsik*
+
+---
+
+### 🔴 fix #224
+
+[`8f380ec`](https://github.com/Yoonmoonsik/dnd55e/commit/8f380ec0ba608fd32fdaa41065b9ab95ad46bfc6) · *yoonmoonsik*
+
+---
+
+### 🔴 Update fix 1.0.4 spanish.xml
+
+[`66157bd`](https://github.com/Yoonmoonsik/dnd55e/commit/66157bd351d6e8fe533def19966674c2431b5b09) · *incolhermex-droid*
+
+---
+
+### 🔵 Update latinSpanish.xml
+
+[`503bd84`](https://github.com/Yoonmoonsik/dnd55e/commit/503bd844d88b518ac8563985517eaaef0b9e042c) · *incolhermex-droid*
+
+---
 
 ## May 10, 2026
 
