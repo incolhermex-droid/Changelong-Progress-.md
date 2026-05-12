@@ -92,6 +92,7 @@ Updates the mod's internal MD5 checksum and Version64 identifier in `meta.lsx` t
 [`19be047`](https://github.com/Yoonmoonsik/dnd55e/commit/19be0470cb7fe17f33157253a34c54b30466eee8) · *Yoonmoonsik*
 
 Added Latin Spanish localization entries for the **Elven Accuracy** feat, including its name (*Precisión Élfica*) and full description. 
+
 Players using the Spanish localization will now see correct translations for this feat's passive reroll mechanic on Dexterity, Intelligence, Wisdom, or Charisma attack rolls made with Advantage.
 
 ---
