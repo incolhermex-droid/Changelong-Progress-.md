@@ -451,7 +451,9 @@ Updates internal build metadata in `meta.lsx`.
 
 [`f901f9c`](https://github.com/Yoonmoonsik/dnd55e/commit/f901f9c1df4bf3ffd2610533dc1c21be076fea33) · *yoonmoonsik*
 
-Fixed the bug reported in issue #155. Corrected a broken spell, passive, or status interaction flagged by the community.
+Fixed the bug reported in issue #155. 
+
+Corrected a broken spell, passive, or status interaction flagged by the community.
 
 ---
 
@@ -2546,7 +2548,9 @@ Required as a structural entry to allow the class to load correctly before its f
 
 [`451b9bb`](https://github.com/Yoonmoonsik/dnd55e/commit/451b9bb5133d1dbe2814b5024df3dd3d7425f62c) · *yoonmoonsik*
 
-Fixed custom classes losing their **Hit Point Dice** after a mod update. Corrected the class progression entries so all custom classes properly display and use their correct hit die type for HP rolls and short rest healing.
+Fixed custom classes losing their **Hit Point Dice** after a mod update. 
+
+Corrected the class progression entries so all custom classes properly display and use their correct hit die type for HP rolls and short rest healing.
 
 ---
 
@@ -2554,7 +2558,9 @@ Fixed custom classes losing their **Hit Point Dice** after a mod update. Correct
 
 [`5cbb495`](https://github.com/Yoonmoonsik/dnd55e/commit/5cbb495f26afa739d1e1a7f999bd1ff7f6f8d0aa) · *yoonmoonsik*
 
-Fixed multiple typos found in localization tooltip entries. Corrects spelling and grammar errors in ability and spell descriptions visible to players in the UI.
+Fixed multiple typos found in localization tooltip entries. 
+
+Corrects spelling and grammar errors in ability and spell descriptions visible to players in the UI.
 
 ---
 
@@ -2562,7 +2568,9 @@ Fixed multiple typos found in localization tooltip entries. Corrects spelling an
 
 [`db1d452`](https://github.com/Yoonmoonsik/dnd55e/commit/db1d4522c8338658efb6e31d52f4d8aada69ef71) · *yoonmoonsik*
 
-Fixed **Prayer of Healing** not granting its Short Rest effect as per the 2024 rules. Corrected the spell so it now also allows each target to spend one Hit Die to recover additional hit points, in addition to the base healing.
+Fixed **Prayer of Healing** not granting its Short Rest effect as per the 2024 rules. 
+
+Corrected the spell so it now also allows each target to spend one Hit Die to recover additional hit points, in addition to the base healing.
 
 ---
 
@@ -2570,7 +2578,9 @@ Fixed **Prayer of Healing** not granting its Short Rest effect as per the 2024 r
 
 [`d008764`](https://github.com/Yoonmoonsik/dnd55e/commit/d008764d6147c1baf551e0bd2be546b5be6be845) · *yoonmoonsik*
 
-Added the **Concentration** requirement to **Flame Blade**. The spell was missing this flag, allowing it to be maintained alongside other concentration spells incorrectly.
+Added the **Concentration** requirement to **Flame Blade**. 
+
+The spell was missing this flag, allowing it to be maintained alongside other concentration spells incorrectly.
 
 ---
 
@@ -2578,7 +2588,9 @@ Added the **Concentration** requirement to **Flame Blade**. The spell was missin
 
 [`2b15b2a`](https://github.com/Yoonmoonsik/dnd55e/commit/2b15b2a4c2c8522afeb8a539dd34ba9908abe10b) · *yoonmoonsik*
 
-Fixed a typo in the **Human** race's skill selection passive text. A localization correction ensuring the skill proficiency choice prompt displays the correct wording in the character creation UI.
+Fixed a typo in the **Human** race's skill selection passive text. 
+
+A localization correction ensuring the skill proficiency choice prompt displays the correct wording in the character creation UI.
 
 ---
 
@@ -2586,7 +2598,9 @@ Fixed a typo in the **Human** race's skill selection passive text. A localizatio
 
 [`e0eaa6a`](https://github.com/Yoonmoonsik/dnd55e/commit/e0eaa6a8f6a7b7ad5bfca87ebad371741f5347a9) · *yoonmoonsik*
 
-Fixed **Barkskin** incorrectly requiring Concentration. As per the 2024 PHB, Barkskin no longer requires concentration — removed the flag so the spell can be maintained alongside other concentration effects.
+Fixed **Barkskin** incorrectly requiring Concentration. 
+
+As per the 2024 PHB, Barkskin no longer requires concentration — removed the flag so the spell can be maintained alongside other concentration effects.
 
 ---
 
@@ -2594,7 +2608,9 @@ Fixed **Barkskin** incorrectly requiring Concentration. As per the 2024 PHB, Bar
 
 [`2aba024`](https://github.com/Yoonmoonsik/dnd55e/commit/2aba0245e86f1fd24f877b13f5d3c98d9d5e7f47) · *yoonmoonsik*
 
-Fixed **Cleric** subclass selection becoming available when multiclassing into Cleric at level 1. Corrected the progression entry so the Divine Domain subclass is only selectable at the correct level.
+Fixed **Cleric** subclass selection becoming available when multiclassing into Cleric at level 1. 
+
+Corrected the progression entry so the Divine Domain subclass is only selectable at the correct level.
 
 ---
 
@@ -2602,7 +2618,9 @@ Fixed **Cleric** subclass selection becoming available when multiclassing into C
 
 [`a490212`](https://github.com/Yoonmoonsik/dnd55e/commit/a49021273986802fce096b527ef33f6c9bbb06da) · *yoonmoonsik*
 
-Fixed **Dark One's Blessings** (Fiend Warlock) not granting temporary hit points correctly when reducing a hostile creature to 0 HP. Corrected the passive trigger so it properly awards temporary HP equal to the Warlock's Charisma modifier plus level.
+Fixed **Dark One's Blessings** (Fiend Warlock) not granting temporary hit points correctly when reducing a hostile creature to 0 HP.
+
+Corrected the passive trigger so it properly awards temporary HP equal to the Warlock's Charisma modifier plus level.
 
 ---
 
@@ -2610,7 +2628,9 @@ Fixed **Dark One's Blessings** (Fiend Warlock) not granting temporary hit points
 
 [`c588454`](https://github.com/Yoonmoonsik/dnd55e/commit/c588454b6094a6f8e3bd6b2004a8f08fa3143565) · *yoonmoonsik*
 
-Version bump to 4.0.3.4. Updates internal build metadata in `meta.lsx`.
+Version bump to 4.0.3.4. 
+
+Updates internal build metadata in `meta.lsx`.
 
 ---
 
@@ -2634,7 +2654,9 @@ Updated the repository README with new information reflecting the latest mod fea
 
 [`9b49269`](https://github.com/Yoonmoonsik/dnd55e/commit/9b4926914160565b4e0f89576786df9719385d93) · *yoonmoonsik*
 
-Fixed an incorrect or missing tooltip on an ability or item. Players will now see accurate descriptions when hovering over the affected element.
+Fixed an incorrect or missing tooltip on an ability or item. 
+
+Players will now see accurate descriptions when hovering over the affected element.
 
 ---
 
@@ -2642,7 +2664,9 @@ Fixed an incorrect or missing tooltip on an ability or item. Players will now se
 
 [`d03c5d3`](https://github.com/Yoonmoonsik/dnd55e/commit/d03c5d3c116299544735b9f163d92bcaf2cf06ec) · *yoonmoonsik*
 
-Version bump to 4.0.3.3. Updates internal build metadata in `meta.lsx`.
+Version bump to 4.0.3.3.
+
+Updates internal build metadata in `meta.lsx`.
 
 ---
 
@@ -2650,7 +2674,9 @@ Version bump to 4.0.3.3. Updates internal build metadata in `meta.lsx`.
 
 [`60be1b3`](https://github.com/Yoonmoonsik/dnd55e/commit/60be1b3cc3ad74957476f07b5f8d5bc9fe823adb) · *yoonmoonsik*
 
-Fixed **Inflict Wounds** not dealing damage correctly. Corrected the spell's melee spell attack and damage scaling so it properly deals necrotic damage at the base and higher-slot dice as per the 2024 rules.
+Fixed **Inflict Wounds** not dealing damage correctly. 
+
+Corrected the spell's melee spell attack and damage scaling so it properly deals necrotic damage at the base and higher-slot dice as per the 2024 rules.
 
 ---
 
@@ -2658,7 +2684,9 @@ Fixed **Inflict Wounds** not dealing damage correctly. Corrected the spell's mel
 
 [`20deeda`](https://github.com/Yoonmoonsik/dnd55e/commit/20deeda65e69fb797a65772c1fdd2e31f0304ab0) · *yoonmoonsik*
 
-Version bump to 4.0.3.2. Updates internal build metadata in `meta.lsx`.
+Version bump to 4.0.3.2. 
+
+Updates internal build metadata in `meta.lsx`.
 
 ---
 
@@ -2666,7 +2694,9 @@ Version bump to 4.0.3.2. Updates internal build metadata in `meta.lsx`.
 
 [`e287516`](https://github.com/Yoonmoonsik/dnd55e/commit/e287516a230802976dfb0112bc02d41a14ae4efc) · *yoonmoonsik*
 
-Updated the **Warlock** spell list to include **Shadow Blade**. The spell is now properly available for Warlocks to learn, dealing psychic damage and benefiting from advantage in dim light or darkness.
+Updated the **Warlock** spell list to include **Shadow Blade**. 
+
+The spell is now properly available for Warlocks to learn, dealing psychic damage and benefiting from advantage in dim light or darkness.
 
 ---
 
@@ -2674,7 +2704,9 @@ Updated the **Warlock** spell list to include **Shadow Blade**. The spell is now
 
 [`337580a`](https://github.com/Yoonmoonsik/dnd55e/commit/337580a1b331f0edbc90c00bf5a9253166b47b05) · *yoonmoonsik*
 
-Fixed an incorrect tooltip on a spell or ability. A localization correction with no gameplay impact.
+Fixed an incorrect tooltip on a spell or ability. 
+
+A localization correction with no gameplay impact.
 
 ---
 
@@ -2682,7 +2714,9 @@ Fixed an incorrect tooltip on a spell or ability. A localization correction with
 
 [`4892f6c`](https://github.com/Yoonmoonsik/dnd55e/commit/4892f6cccac75ae1242cc33f0dac8495c6e20198) · *yoonmoonsik*
 
-Fixed **Warding Bond** having an incorrect range. Corrected the spell's targeting radius so the bond can only be established with a creature within the proper touch range, and damage sharing only occurs while within 60 feet.
+Fixed **Warding Bond** having an incorrect range. 
+
+Corrected the spell's targeting radius so the bond can only be established with a creature within the proper touch range, and damage sharing only occurs while within 60 feet.
 
 ---
 
@@ -2690,7 +2724,9 @@ Fixed **Warding Bond** having an incorrect range. Corrected the spell's targetin
 
 [`032d2b2`](https://github.com/Yoonmoonsik/dnd55e/commit/032d2b27c858be4898510ff4ee34690fe29379ea) · *yoonmoonsik*
 
-Fixed **Sorcerer Metamagic** options having incorrect Sorcery Point costs. Corrected the cost values for affected Metamagic options to match the 2024 PHB pricing (e.g., Twinned Spell, Quickened Spell).
+Fixed **Sorcerer Metamagic** options having incorrect Sorcery Point costs.
+
+Corrected the cost values for affected Metamagic options to match the 2024 PHB pricing (e.g., Twinned Spell, Quickened Spell).
 
 ---
 
@@ -2698,7 +2734,9 @@ Fixed **Sorcerer Metamagic** options having incorrect Sorcery Point costs. Corre
 
 [`426b074`](https://github.com/Yoonmoonsik/dnd55e/commit/426b074d875379b012d6a97b0eba82ead73569d0) · *yoonmoonsik*
 
-Updated the **Spellthief** Rogue subclass with revised feature logic. Adjusts its spell-stealing mechanics and arcane larceny passive interactions to better reflect the subclass design.
+Updated the **Spellthief** Rogue subclass with revised feature logic. 
+
+Adjusts its spell-stealing mechanics and arcane larceny passive interactions to better reflect the subclass design.
 
 ---
 
@@ -2706,7 +2744,9 @@ Updated the **Spellthief** Rogue subclass with revised feature logic. Adjusts it
 
 [`d63ab3a`](https://github.com/Yoonmoonsik/dnd55e/commit/d63ab3ad94d30fd76b0a967def2028ea7d1c5bea) · *yoonmoonsik*
 
-Updated the **Owlbear Cubs** armor passive. Adjusts its bonus condition or boost value to ensure it applies correctly when the associated armor is equipped.
+Updated the **Owlbear Cubs** armor passive. 
+
+Adjusts its bonus condition or boost value to ensure it applies correctly when the associated armor is equipped.
 
 ---
 
@@ -2714,7 +2754,9 @@ Updated the **Owlbear Cubs** armor passive. Adjusts its bonus condition or boost
 
 [`bf06b3b`](https://github.com/Yoonmoonsik/dnd55e/commit/bf06b3bed3249c9e15947800160c372eeb65a7c6) · *yoonmoonsik*
 
-Updated the **Bardic Inspiration Heal Hat** passive. Adjusts the item's healing trigger so it correctly restores hit points when a Bardic Inspiration die is expended by the wearer.
+Updated the **Bardic Inspiration Heal Hat** passive. 
+
+Adjusts the item's healing trigger so it correctly restores hit points when a Bardic Inspiration die is expended by the wearer.
 
 ---
 
@@ -2722,7 +2764,9 @@ Updated the **Bardic Inspiration Heal Hat** passive. Adjusts the item's healing 
 
 [`27f94c5`](https://github.com/Yoonmoonsik/dnd55e/commit/27f94c58275822207b97b2529966a6fb2daf56f6) · *yoonmoonsik*
 
-Updated the **Bard Temporary HP Armor** passive. Corrects the temp HP trigger condition so the armor properly grants temporary hit points when Bardic Inspiration is used or a performance ability is activated.
+Updated the **Bard Temporary HP Armor** passive. 
+
+Corrects the temp HP trigger condition so the armor properly grants temporary hit points when Bardic Inspiration is used or a performance ability is activated.
 
 ---
 
@@ -2730,7 +2774,9 @@ Updated the **Bard Temporary HP Armor** passive. Corrects the temp HP trigger co
 
 [`43ad20c`](https://github.com/Yoonmoonsik/dnd55e/commit/43ad20c0b391d906e013492ee646c9ffd32b8525) · *yoonmoonsik*
 
-Applied minor corrections to **Fighting Style** feats. Fixes small condition or prerequisite errors that were causing unintended behavior when these feats were selected outside of a Fighter or Paladin class.
+Applied minor corrections to **Fighting Style** feats. 
+
+Fixes small condition or prerequisite errors that were causing unintended behavior when these feats were selected outside of a Fighter or Paladin class.
 
 ---
 
@@ -2738,7 +2784,9 @@ Applied minor corrections to **Fighting Style** feats. Fixes small condition or 
 
 [`6862b84`](https://github.com/Yoonmoonsik/dnd55e/commit/6862b84e524528d077b3f581354296bdd5cb6aa2) · *yoonmoonsik*
 
-Version bump to 4.0.3. Updates internal build metadata in `meta.lsx`.
+Version bump to 4.0.3. 
+
+Updates internal build metadata in `meta.lsx`.
 
 ---
 
@@ -2747,6 +2795,7 @@ Version bump to 4.0.3. Updates internal build metadata in `meta.lsx`.
 [`4cb78f7`](https://github.com/Yoonmoonsik/dnd55e/commit/4cb78f7107cf40a3379f306a68451e6f269879e4) · *yoonmoonsik*
 
 Fixed **Shadow Blade** missing its duration and Concentration requirement. 
+
 Added the proper spell flags so the summoned psychic blade lasts 1 minute and is dropped if concentration is broken.
 
 ---
@@ -2756,6 +2805,7 @@ Added the proper spell flags so the summoned psychic blade lasts 1 minute and is
 [`be1bfd7`](https://github.com/Yoonmoonsik/dnd55e/commit/be1bfd7cfca5e7c675dc534c13976d4604530b05) · *yoonmoonsik*
 
 Fixed the **Hold Monster** spell displaying an incorrect or placeholder description. 
+
 Updated the localization entry to accurately describe its Paralyzed condition, saving throw, and concentration mechanics.
 
 ---
@@ -2765,6 +2815,7 @@ Updated the localization entry to accurately describe its Paralyzed condition, s
 [`f830a5d`](https://github.com/Yoonmoonsik/dnd55e/commit/f830a5de5aed7395e2aa9a89a982db55e22a5f32) · *yoonmoonsik*
 
 Fixed the **Druid Primal Order** selection using the wrong UI selection type. 
+
 Corrected the progression entry so the Magician or Warden choice appears as a proper single-select option at character creation.
 
 ---
@@ -2774,6 +2825,7 @@ Corrected the progression entry so the Magician or Warden choice appears as a pr
 [`48a920f`](https://github.com/Yoonmoonsik/dnd55e/commit/48a920f50e7d25e199233074badebb12ca319bf1) · *yoonmoonsik*
 
 Fixed Druid subclasses displaying without an icon in the character creation screen. 
+
 Added the missing icon references so all Druid circles show their correct visual in the subclass selection UI.
 
 ---
@@ -2783,6 +2835,7 @@ Added the missing icon references so all Druid circles show their correct visual
 [`a24fe9a`](https://github.com/Yoonmoonsik/dnd55e/commit/a24fe9ae75a15f1197ebdb9312cd022477e689fc) · *yoonmoonsik*
 
 Fixed the **Draconic Bloodline Sorcerer** HP increase feature displaying an incorrect tooltip. 
+
 Updated the localization so the passive's description correctly states it adds 1 HP per Sorcerer level.
 
 ---
@@ -2791,7 +2844,8 @@ Updated the localization so the passive's description correctly states it adds 1
 
 [`29d0cb4`](https://github.com/Yoonmoonsik/dnd55e/commit/29d0cb4432d7ab5d24ab304c5792aea2839b13ef) · *yoonmoonsik*
 
-Fixed the **True Strike** cantrip variant not appearing as a selectable option in the spell selection UI. 
+Fixed the **True Strike** cantrip variant not appearing as a selectable option in the spell selection UI.
+
 Corrected the spell entry flags so the 2024 version is properly listed and choosable.
 
 ---
@@ -2801,6 +2855,7 @@ Corrected the spell entry flags so the 2024 version is properly listed and choos
 [`e8e07dc`](https://github.com/Yoonmoonsik/dnd55e/commit/e8e07dcde0cefe4f06fde47128aedd6aea30827d) · *yoonmoonsik*
 
 Fixed **Astarion** and **Gale** being unable to respec after installing the mod. 
+
 Corrected their companion progression entries so the respec system can properly process their class data without errors.
 
 ---
@@ -2809,7 +2864,9 @@ Corrected their companion progression entries so the respec system can properly 
 
 [`b077864`](https://github.com/Yoonmoonsik/dnd55e/commit/b077864ab006876d6400f89f8459bf44a7856caa) · *yoonmoonsik*
 
-Fixed the **Human** race Origin Feat not correctly granting the **Musician** feat. The first reported issue on the tracker — corrected the feat assignment so Human characters can properly select and receive Musician at character creation.
+Fixed the **Human** race Origin Feat not correctly granting the **Musician** feat. 
+
+The first reported issue on the tracker — corrected the feat assignment so Human characters can properly select and receive Musician at character creation.
 
 ---
 
@@ -2817,7 +2874,9 @@ Fixed the **Human** race Origin Feat not correctly granting the **Musician** fea
 
 [`23decc2`](https://github.com/Yoonmoonsik/dnd55e/commit/23decc22720bbde3a9bf2ca59a2d7f5d002162d8) · *yoonmoonsik*
 
-Version bump to 4.0.2.7. Updates internal build metadata in `meta.lsx`.
+Version bump to 4.0.2.7. 
+
+Updates internal build metadata in `meta.lsx`.
 
 ---
 
@@ -2826,6 +2885,7 @@ Version bump to 4.0.2.7. Updates internal build metadata in `meta.lsx`.
 [`0857721`](https://github.com/Yoonmoonsik/dnd55e/commit/0857721402e0c7a89ae4d421c228725ffa946552) · *yoonmoonsik*
 
 Applied minor corrections to **Weapon Mastery** passive entries. 
+
 Fixes a small condition or flag issue causing unintended behavior in one or more mastery properties.
 
 ---
@@ -2835,6 +2895,7 @@ Fixes a small condition or flag issue causing unintended behavior in one or more
 [`81188c7`](https://github.com/Yoonmoonsik/dnd55e/commit/81188c7a888a114c3f1a55ee0dfc425489215715) · *yoonmoonsik*
 
 Fixed **Divine Favor** not applying its radiant damage bonus correctly. 
+
 Corrected the spell's concentration boost so it properly adds 1d4 radiant damage to weapon attack hits for the spell's duration.
 
 ---
@@ -2844,6 +2905,7 @@ Corrected the spell's concentration boost so it properly adds 1d4 radiant damage
 [`e73383e`](https://github.com/Yoonmoonsik/dnd55e/commit/e73383e7bc4fbaa6bab16b46d70f719d730e14de) · *yoonmoonsik*
 
 Fixed the **Sharpshooter** feat not functioning correctly. 
+
 Corrected the passive so it properly ignores half and three-quarters cover on ranged attacks, and the optional -5/+10 trade-off works as intended per the 2024 rules.
 
 ---
@@ -2853,6 +2915,7 @@ Corrected the passive so it properly ignores half and three-quarters cover on ra
 [`2b6ab6a`](https://github.com/Yoonmoonsik/dnd55e/commit/2b6ab6a4eb93a0bd47d49b833cef2790c1355d78) · *yoonmoonsik*
 
 Added internal reference materials for the developer. 
+
 Documentation or source files used as design references — no gameplay changes.
 
 ---
@@ -2864,6 +2927,7 @@ Documentation or source files used as design references — no gameplay changes.
 [`76c2815`](https://github.com/Yoonmoonsik/dnd55e/commit/76c28158dcca160c7eef78da5733022a39202251) · *yoonmoonsik*
 
 Fixed the **Hellrider's Pride** item or feature displaying an incorrect tooltip. 
+
 Updated the localization entry to accurately describe its bonus or effect.
 
 ---
@@ -2873,6 +2937,7 @@ Updated the localization entry to accurately describe its bonus or effect.
 [`410e9a7`](https://github.com/Yoonmoonsik/dnd55e/commit/410e9a72727b47ca12c74b6c67cb20c24d3a28d0) · *yoonmoonsik*
 
 Fixed an issue with **Baelen** (NPC in the Underdark mushroom field) caused by mod interactions. 
+
 Corrected his stat or script entry so he behaves correctly in the encounter.
 
 ---
@@ -2882,6 +2947,7 @@ Corrected his stat or script entry so he behaves correctly in the encounter.
 [`357afce`](https://github.com/Yoonmoonsik/dnd55e/commit/357afce102be1e37d83829d9f12c3dcbb26d1dd9) · *yoonmoonsik*
 
 Fixed the **Bardic Inspiration** ability not triggering or refreshing correctly. 
+
 Corrected the passive or spell condition so inspiration dice are properly granted and consumed per the 2024 rules.
 
 ---
@@ -2891,6 +2957,7 @@ Corrected the passive or spell condition so inspiration dice are properly grante
 [`99c21a6`](https://github.com/Yoonmoonsik/dnd55e/commit/99c21a60b1f908dcc187b96b32957f34fac998c2) · *yoonmoonsik*
 
 Fixed the **Push** Weapon Mastery property not working correctly. 
+
 Corrected the passive trigger so successfully hitting with a Push-mastery weapon properly allows the attacker to push the target up to 10 feet away.
 
 ---
@@ -2900,6 +2967,7 @@ Corrected the passive trigger so successfully hitting with a Push-mastery weapon
 [`00226e0`](https://github.com/Yoonmoonsik/dnd55e/commit/00226e07f75869447c22dd219be9e830cda77511) · *yoonmoonsik*
 
 Fixed the **Interception** fighting style not reducing damage correctly. 
+
 Corrected the reaction logic so damage to a nearby ally is properly reduced by 1d10 + proficiency bonus when the reaction is used.
 
 ---
@@ -2908,7 +2976,9 @@ Corrected the reaction logic so damage to a nearby ally is properly reduced by 1
 
 [`816b589`](https://github.com/Yoonmoonsik/dnd55e/commit/816b58976b30a7fd9f10ca6683e2c173abc221ca) · *yoonmoonsik*
 
-Version bump to 4.0.2.4. Updates internal build metadata in `meta.lsx`.
+Version bump to 4.0.2.4. 
+
+Updates internal build metadata in `meta.lsx`.
 
 ---
 
@@ -2917,6 +2987,7 @@ Version bump to 4.0.2.4. Updates internal build metadata in `meta.lsx`.
 [`39bfd3e`](https://github.com/Yoonmoonsik/dnd55e/commit/39bfd3e5280537d1bab9faa2adf15c07a06f4d04) · *yoonmoonsik*
 
 Fixed multiple **Weapon Mastery** properties not functioning correctly. 
+
 Broad correction pass across Cleave, Graze, Sap, Topple, and other mastery passives to address condition and trigger issues.
 
 ---
@@ -2926,6 +2997,7 @@ Broad correction pass across Cleave, Graze, Sap, Topple, and other mastery passi
 [`3accc71`](https://github.com/Yoonmoonsik/dnd55e/commit/3accc7101e649a545ed4bcd2213e0865e258526e) · *yoonmoonsik*
 
 Updated NPC Druid stat entries to reflect the mod's revised Druid class. 
+
 Ensures enemy and friendly Druid NPCs use the updated Wild Shape, spell list, and class features.
 
 ---
@@ -2935,6 +3007,7 @@ Ensures enemy and friendly Druid NPCs use the updated Wild Shape, spell list, an
 [`25319f8`](https://github.com/Yoonmoonsik/dnd55e/commit/25319f87417c3f666c16c35a955b4b4981561bd1) · *yoonmoonsik*
 
 Overhauled the interrupt and passive trigger framework to support more complex reaction-based mechanics. 
+
 Added Hit Point Dice spell entries enabling proper short rest healing rolls directly from the UI.
 
 ---
@@ -2944,6 +3017,7 @@ Added Hit Point Dice spell entries enabling proper short rest healing rolls dire
 [`11b4559`](https://github.com/Yoonmoonsik/dnd55e/commit/11b455921e3465f39d61adb32bb16186d5b2e89e) · *yoonmoonsik*
 
 Updated the **School of Illusion Wizard** subclass. 
+
 Adjusts Improved Minor Illusion, Malleable Illusions, and Illusory Reality feature logic to better match the 2024 PHB implementation.
 
 ---
@@ -2953,6 +3027,7 @@ Adjusts Improved Minor Illusion, Malleable Illusions, and Illusory Reality featu
 [`b337c55`](https://github.com/Yoonmoonsik/dnd55e/commit/b337c5507fdef040a6ad05be6ccd5730cb3b0242) · *yoonmoonsik*
 
 Updated the **Great Old One Warlock** patron with revised feature logic. 
+
 Adjusts Awakened Mind telepathy, Entropic Ward, and Thought Shield features to align with the 2024 Warlock redesign.
 
 ---
@@ -2962,6 +3037,7 @@ Adjusts Awakened Mind telepathy, Entropic Ward, and Thought Shield features to a
 [`4cdc883`](https://github.com/Yoonmoonsik/dnd55e/commit/4cdc8833ff930b2dff4bb4f83b617d3f7d1e5363) · *yoonmoonsik*
 
 Updated **Dark One's Blessings** (Fiend Warlock) with revised passive logic. 
+
 Ensures the temporary HP grant triggers correctly on kill and scales properly with Charisma modifier and Warlock level.
 
 ---
@@ -2973,6 +3049,7 @@ Ensures the temporary HP grant triggers correctly on kill and scales properly wi
 [`8577fc4`](https://github.com/Yoonmoonsik/dnd55e/commit/8577fc4b1709c756c42d18935a073ee4de3554f4) · *yoonmoonsik*
 
 Version bump to 4.0.0.10.
+
 Updates internal build metadata in `meta.lsx`.
 
 ---
@@ -2982,6 +3059,7 @@ Updates internal build metadata in `meta.lsx`.
 [`41b6747`](https://github.com/Yoonmoonsik/dnd55e/commit/41b6747a9b682d12c6a38d7c84bd8faa85658f24) · *yoonmoonsik*
 
 Fixed the **Always Dipped in Fire Greatsword** passive not applying its fire damage correctly. 
+
 Corrected the passive boost so the weapon consistently deals its additional fire damage on hit without requiring manual dipping.
 
 ---
@@ -2991,6 +3069,7 @@ Corrected the passive boost so the weapon consistently deals its additional fire
 [`3fb9538`](https://github.com/Yoonmoonsik/dnd55e/commit/3fb953898cd6197af9d6b48c01eab49143c2dd69) · *yoonmoonsik*
 
 Fixed **Elf** characters being unable to respec correctly. 
+
 Corrected the Elf race progression entry so the respec system can process their racial traits without errors or softlocks.
 
 ---
@@ -3000,6 +3079,7 @@ Corrected the Elf race progression entry so the respec system can process their 
 [`3a06433`](https://github.com/Yoonmoonsik/dnd55e/commit/3a06433252ea6a6ee17c0e766b22625d6fec17e9) · *yoonmoonsik*
 
 Version bump to 4.0.0.9. 
+
 Updates internal build metadata in `meta.lsx`.
 
 ---
@@ -3009,6 +3089,7 @@ Updates internal build metadata in `meta.lsx`.
 [`86d85ef`](https://github.com/Yoonmoonsik/dnd55e/commit/86d85ef93d2258f7c0366da7119ad8e1e445e99e) · *yoonmoonsik*
 
 Major version milestone: V4.
+
 Marks the beginning of the Version 4 architecture, introducing the restructured class, race, and spell framework that all subsequent updates build upon.
 
 ---
@@ -3018,6 +3099,7 @@ Marks the beginning of the Version 4 architecture, introducing the restructured 
 [`0932be6`](https://github.com/Yoonmoonsik/dnd55e/commit/0932be659ae9f07a075f08b25a9bb36acbae5632) · *yoonmoonsik*
 
 Added new equipment set definitions, spell set groupings, and internal documentation for race implementations. 
+
 Foundational content added as part of the V4 restructure.
 
 ---
@@ -3027,6 +3109,7 @@ Foundational content added as part of the V4 restructure.
 [`76509cb`](https://github.com/Yoonmoonsik/dnd55e/commit/76509cbc525b0e629aa80e2b6db4397e73ba813f) · *yoonmoonsik*
 
 Updated the **Celestial Warlock** patron with revised feature logic. 
+
 Adjusts Healing Light, Radiant Soul, and Celestial Resilience features to align with the 2024 Warlock patron redesign.
 
 ---
@@ -3036,6 +3119,7 @@ Adjusts Healing Light, Radiant Soul, and Celestial Resilience features to align 
 [`6d7ca31`](https://github.com/Yoonmoonsik/dnd55e/commit/6d7ca3105b694ab16b62ebf7695961499df5675c) · *yoonmoonsik*
 
 Updated **Spiritual Weapon** to reflect the 2024 rules. 
+
 The spell no longer requires concentration and now functions as a Bonus Action summon that attacks automatically, adjusting the spell's behavior accordingly.
 
 ---
@@ -3047,6 +3131,7 @@ The spell no longer requires concentration and now functions as a Bonus Action s
 [`21f51d5`](https://github.com/Yoonmoonsik/dnd55e/commit/21f51d521bc7066ce0653975b6092dbb6da10bd6) · *yoonmoonsik*
 
 Updated the **Archfey Warlock** patron with revised feature logic. 
+
 Adjusts Fey Presence, Misty Escape, Beguiling Defenses, and Dark Delirium to align with the 2024 Warlock patron redesign.
 
 ---
@@ -3064,6 +3149,7 @@ Applied several minor corrections across stat entries, spell conditions, or pass
 [`5f50436`](https://github.com/Yoonmoonsik/dnd55e/commit/5f50436a239d456dd8cc92a9911335fb949d3eea) · *yoonmoonsik*
 
 Increased the level of NPCs in the **Arcane Tower** by 1. 
+
 A balance adjustment to make the encounter more appropriate for the player's expected power level when reaching that area.
 
 ---
@@ -3073,6 +3159,7 @@ A balance adjustment to make the encounter more appropriate for the player's exp
 [`2a058a2`](https://github.com/Yoonmoonsik/dnd55e/commit/2a058a2df360969ad3cc9ca5c3a1470ce1428d19) · *yoonmoonsik*
 
 Updated icons for various abilities, spells, or class features. 
+
 Ensures all affected elements display a proper and representative visual in the action bar and UI.
 
 ---
@@ -3082,6 +3169,7 @@ Ensures all affected elements display a proper and representative visual in the 
 [`cd69949`](https://github.com/Yoonmoonsik/dnd55e/commit/cd699496cb85c3abada31720056ffcc37d59b2e3) · *yoonmoonsik*
 
 Updated **Draconic Bloodline** and **Wild Magic** Sorcerer subclasses to align with the 2024 PHB. 
+
 Revisions cover Draconic Resilience, Tides of Chaos, and Wild Magic Surge table interactions.
 
 ---
@@ -3091,6 +3179,7 @@ Revisions cover Draconic Resilience, Tides of Chaos, and Wild Magic Surge table 
 [`5d7fe52`](https://github.com/Yoonmoonsik/dnd55e/commit/5d7fe52ce214773182df364253187601ec607842) · *yoonmoonsik*
 
 Updated the **Clockwork Soul Sorcerer** subclass to align with the 2024 rules. 
+
 Adjusts Clockwork Magic spell list, Restore Balance interrupt, and Bulwark of Law feature implementation.
 
 ---
@@ -3098,13 +3187,17 @@ Adjusts Clockwork Magic spell list, Restore Balance interrupt, and Bulwark of La
 ### 🔵 update abberant sorcery
 
 [`76f8b80`](https://github.com/Yoonmoonsik/dnd55e/commit/76f8b80f5f271127feb394141fbdec42a17b3eb7) · *yoonmoonsik*
-Updated the **Aberrant Mind Sorcerer** subclass to align with the 2024 rules. Adjusts Telepathic Speech, Psionic Spells, Revelation in Flesh, and Warped Being feature implementations.
+
+Updated the **Aberrant Mind Sorcerer** subclass to align with the 2024 rules. 
+
+Adjusts Telepathic Speech, Psionic Spells, Revelation in Flesh, and Warped Being feature implementations.
 
 ---
 
 ### 🔴 minor fixes
 
 [`e921cc9`](https://github.com/Yoonmoonsik/dnd55e/commit/e921cc96c81ab6cd66a517750ff4929b38adc060) · *yoonmoonsik*
+
 Applied minor corrections across several stat or spell entries to address small unintended behaviors identified during the Sorcerer subclass update pass.
 
 ---
@@ -3114,70 +3207,100 @@ Applied minor corrections across several stat or spell entries to address small 
 ### 🔵 update HypnoticPattern
 
 [`d0dcf5b`](https://github.com/Yoonmoonsik/dnd55e/commit/d0dcf5bbaee8b4889e7682cc221842c822b4ce69) · *yoonmoonsik*
-Updated **Hypnotic Pattern** to reflect the 2024 rules. Adjusts the Charmed condition application, area of effect, and the condition that breaks the effect to match the revised spell behavior.
+
+Updated **Hypnotic Pattern** to reflect the 2024 rules. 
+
+Adjusts the Charmed condition application, area of effect, and the condition that breaks the effect to match the revised spell behavior.
 
 ---
 
 ### 🔵 update ArmorOfAgathys
 
 [`ae2981e`](https://github.com/Yoonmoonsik/dnd55e/commit/ae2981e1b2c9c242a71c1226a5ea5a15a3294fa8) · *yoonmoonsik*
-Updated **Armor of Agathys** to reflect the 2024 rules. Adjusts the temporary HP amount and cold damage retaliation scaling at higher spell slots to match the revised values.
+
+Updated **Armor of Agathys** to reflect the 2024 rules. 
+
+Adjusts the temporary HP amount and cold damage retaliation scaling at higher spell slots to match the revised values.
 
 ---
 
 ### 🔵 update jump
 
 [`2bae3ee`](https://github.com/Yoonmoonsik/dnd55e/commit/2bae3ee501726584ea5b0d6305a379917a3d109e) · *yoonmoonsik*
-Updated the **Jump** spell to reflect the 2024 redesign. The spell now targets up to 30 creatures, grants a Jump distance of 30 feet as a Bonus Action, and no longer requires concentration.
+
+Updated the **Jump** spell to reflect the 2024 redesign. 
+
+The spell now targets up to 30 creatures, grants a Jump distance of 30 feet as a Bonus Action, and no longer requires concentration.
 
 ---
 
 ### 🟢 add extend rage
 
 [`fb37ed4`](https://github.com/Yoonmoonsik/dnd55e/commit/fb37ed440e3401639e15c71b346a5cf70e4889a9) · *yoonmoonsik*
-Added the **Extend Rage** passive for Barbarians. Implements the 2024 rule allowing Barbarians to maintain rage for an additional round when they would otherwise lose it, as long as they take damage or attack.
+
+Added the **Extend Rage** passive for Barbarians. 
+
+Implements the 2024 rule allowing Barbarians to maintain rage for an additional round when they would otherwise lose it, as long as they take damage or attack.
 
 ---
 
 ### 🔴 fix Psychic Blade
 
 [`0b41866`](https://github.com/Yoonmoonsik/dnd55e/commit/0b41866bf3d121963fda70d02b69718f428854d4) · *yoonmoonsik*
-Fixed **Psychic Blade** (Soulknife Rogue) not dealing damage correctly. Corrected the finesse melee or ranged spell attack logic so the blade properly deals psychic damage using the Rogue's Dexterity modifier.
+
+Fixed **Psychic Blade** (Soulknife Rogue) not dealing damage correctly. 
+
+Corrected the finesse melee or ranged spell attack logic so the blade properly deals psychic damage using the Rogue's Dexterity modifier.
 
 ---
 
 ### 🔵 update Soulknife
 
 [`cc548fb`](https://github.com/Yoonmoonsik/dnd55e/commit/cc548fbb3f878bd5656b5cad601df3c58bc5d03d) · *yoonmoonsik*
-Updated the **Soulknife Rogue** subclass to align with the 2024 rules. Revisions cover Psionic Power dice, Psychic Blade generation, Psionic Veil, and Rend Mind feature implementations.
+
+Updated the **Soulknife Rogue** subclass to align with the 2024 rules.
+
+Revisions cover Psionic Power dice, Psychic Blade generation, Psionic Veil, and Rend Mind feature implementations.
 
 ---
 
 ### 🔵 update fey wanderer
 
 [`e7cb188`](https://github.com/Yoonmoonsik/dnd55e/commit/e7cb188082835cabc2cb30fc4dd3d1bfee086b47) · *yoonmoonsik*
-Updated the **Fey Wanderer Ranger** subclass to align with the 2024 rules. Adjusts Dreadful Strikes, Otherworldly Glamour, Beguiling Twist, and Fey Reinforcements feature implementations.
+
+Updated the **Fey Wanderer Ranger** subclass to align with the 2024 rules. 
+
+Adjusts Dreadful Strikes, Otherworldly Glamour, Beguiling Twist, and Fey Reinforcements feature implementations.
 
 ---
 
 ### 🔵 update oath of glory paladin
 
 [`6754a37`](https://github.com/Yoonmoonsik/dnd55e/commit/6754a376d36e2ebc4b7ca5c01d5ca6847692a3fe) · *yoonmoonsik*
-Updated the **Oath of Glory Paladin** subclass to align with the 2024 rules. Adjusts Inspiring Smite, Peerless Athlete, Aura of Alacrity, and Glorious Defense feature implementations.
+
+Updated the **Oath of Glory Paladin** subclass to align with the 2024 rules. 
+
+Adjusts Inspiring Smite, Peerless Athlete, Aura of Alacrity, and Glorious Defense feature implementations.
 
 ---
 
 ### 🔵 update Mercy Monk
 
 [`f9aaa00`](https://github.com/Yoonmoonsik/dnd55e/commit/f9aaa00e096e3dca61d2abc115ea893a59cca30e) · *yoonmoonsik*
-Updated the **Way of Mercy Monk** subclass to align with the 2024 rules. Adjusts Hand of Healing, Hand of Harm, Implements of Mercy, and Hand of Ultimate Mercy feature implementations.
+
+Updated the **Way of Mercy Monk** subclass to align with the 2024 rules. 
+
+Adjusts Hand of Healing, Hand of Harm, Implements of Mercy, and Hand of Ultimate Mercy feature implementations.
 
 ---
 
 ### 🔵 update Level 2: Wild Companion
 
 [`5361b20`](https://github.com/Yoonmoonsik/dnd55e/commit/5361b206665e5a062250357a3f93c46d13fa932a) · *yoonmoonsik*
-Updated the **Wild Companion** Druid level 2 optional feature. Corrects the Find Familiar spell grant so it properly uses a Wild Shape charge instead of a spell slot, as per the 2024 rules.
+
+Updated the **Wild Companion** Druid level 2 optional feature.
+
+Corrects the Find Familiar spell grant so it properly uses a Wild Shape charge instead of a spell slot, as per the 2024 rules.
 
 ---
 
@@ -3186,48 +3309,67 @@ Updated the **Wild Companion** Druid level 2 optional feature. Corrects the Find
 ### 🔵 Update Psi Warrior
 
 [`26de590`](https://github.com/Yoonmoonsik/dnd55e/commit/26de5904742154bcc5f4e404696f1f1838efe828) · *yoonmoonsik*
-Updated the **Psi Warrior Fighter** subclass to align with the 2024 rules. Revisions cover Psionic Power dice, Telekinetic Movement, Guarded Mind, Bulwark of Force, and Telekinetic Master feature implementations.
+
+Updated the **Psi Warrior Fighter** subclass to align with the 2024 rules. 
+
+Revisions cover Psionic Power dice, Telekinetic Movement, Guarded Mind, Bulwark of Force, and Telekinetic Master feature implementations.
 
 ---
 
 ### 🔵 update circle of the sea
 
 [`9cc0811`](https://github.com/Yoonmoonsik/dnd55e/commit/9cc0811db409e95884c2764a907059a12c5e0345) · *yoonmoonsik*
-Updated the **Circle of the Sea Druid** subclass to align with the 2024 rules. Adjusts Wrath of the Sea, Aquatic Affinity, Stormborn, and Oceanic Gift feature implementations.
+
+Updated the **Circle of the Sea Druid** subclass to align with the 2024 rules. 
+
+Adjusts Wrath of the Sea, Aquatic Affinity, Stormborn, and Oceanic Gift feature implementations.
 
 ---
 
 ### 🔵 update circle of the sea spells
 
 [`52cc297`](https://github.com/Yoonmoonsik/dnd55e/commit/52cc297d962401145ad5139e5641dfcc4fa82c4d) · *yoonmoonsik*
-Updated the **Circle of the Sea** expanded spell list. Ensures all ocean and storm-themed domain spells are properly granted at the correct Druid levels.
+
+Updated the **Circle of the Sea** expanded spell list. 
+
+Ensures all ocean and storm-themed domain spells are properly granted at the correct Druid levels.
 
 ---
 
 ### 🔵 update Nature's Ward
 
 [`4317136`](https://github.com/Yoonmoonsik/dnd55e/commit/431713653d15bd0c1b28c2356613e3f1d3d1b580) · *yoonmoonsik*
-Updated **Nature's Ward** (Circle of the Land Druid level 10 feature). Corrects the immunity granting logic so the Druid properly becomes immune to poison, disease, and charm/fear effects from Elementals and Fey.
+
+Updated **Nature's Ward** (Circle of the Land Druid level 10 feature). 
+
+Corrects the immunity granting logic so the Druid properly becomes immune to poison, disease, and charm/fear effects from Elementals and Fey.
 
 ---
 
 ### 🔵 update Land's Aid
 
 [`abcce70`](https://github.com/Yoonmoonsik/dnd55e/commit/abcce70d7463ada3c41e3aad391913a4811431a9) · *yoonmoonsik*
-Updated **Land's Aid** (Circle of the Land Druid feature). Adjusts the healing and necrotic damage pulse logic so it properly affects targets in range when the Druid uses this Channel Divinity option.
+
+Updated **Land's Aid** (Circle of the Land Druid feature). 
+
+Adjusts the healing and necrotic damage pulse logic so it properly affects targets in range when the Druid uses this Channel Divinity option.
 
 ---
 
 ### 🔵 update Circle of the Land Spells
 
 [`bb2c27a`](https://github.com/Yoonmoonsik/dnd55e/commit/bb2c27ab64aff1353cb0e6e6edb92e1a5a5e75d1) · *yoonmoonsik*
-Updated the **Circle of the Land** expanded spell lists for all terrain types (Arctic, Coast, Desert, Forest, Grassland, Mountain, Swamp, Underdark). Ensures the correct terrain-themed spells are granted at each tier.
+
+Updated the **Circle of the Land** expanded spell lists for all terrain types (Arctic, Coast, Desert, Forest, Grassland, Mountain, Swamp, Underdark).
+
+Ensures the correct terrain-themed spells are granted at each tier.
 
 ---
 
 ### 🔵 Update Resource Icons
 
 [`4676f23`](https://github.com/Yoonmoonsik/dnd55e/commit/4676f23019f68e65f5f47e2e2e25235d5ffcf253) · *yoonmoonsik*
+
 Updated icons for class and ability resource trackers. Ensures Rage charges, Ki points, Sorcery Points, and other resource pools display with clear and distinct icons in the UI.
 
 ---
@@ -3235,6 +3377,7 @@ Updated icons for class and ability resource trackers. Ensures Rage charges, Ki 
 ### 🟢 update feats
 
 [`815654c`](https://github.com/Yoonmoonsik/dnd55e/commit/815654c2ee46c5143f8f57d4abf3dd18835ad6c2) · *yoonmoonsik*
+
 Updated multiple feats with revised passive logic and ASI integration to align with the 2024 PHB feat redesign, adding prerequisites and correcting condition triggers.
 
 ---
@@ -3242,63 +3385,90 @@ Updated multiple feats with revised passive logic and ASI integration to align w
 ### 🔵 update fighting styles
 
 [`8e60728`](https://github.com/Yoonmoonsik/dnd55e/commit/8e60728b4fbdfd37e942fc322d5283b6f0c28097) · *yoonmoonsik*
-Updated **Fighting Styles** across all applicable classes. Adjusts Archery, Defense, Dueling, Great Weapon Fighting, Protection, and Two-Weapon Fighting to reflect the 2024 PHB definitions and passive boost logic.
+
+Updated **Fighting Styles** across all applicable classes. 
+
+Adjusts Archery, Defense, Dueling, Great Weapon Fighting, Protection, and Two-Weapon Fighting to reflect the 2024 PHB definitions and passive boost logic.
 
 ---
 
 ### 🔵 update evoker
 
 [`20b518d`](https://github.com/Yoonmoonsik/dnd55e/commit/20b518d3fa51963449e63f8dafe6e2de1e419041) · *yoonmoonsik*
-Updated the **School of Evocation Wizard** subclass to align with the 2024 rules. Adjusts Sculpt Spells, Potent Cantrip, Empowered Evocation, and Overchannel feature implementations.
+
+Updated the **School of Evocation Wizard** subclass to align with the 2024 rules.
+
+Adjusts Sculpt Spells, Potent Cantrip, Empowered Evocation, and Overchannel feature implementations.
 
 ---
 
 ### 🔵 update Durable
 
 [`e93d224`](https://github.com/Yoonmoonsik/dnd55e/commit/e93d224aa03fefc0b249f1cad41989a627e0117c) · *yoonmoonsik*
-Updated the **Durable** feat to align with the 2024 PHB. The feat now grants +1 Constitution, and when the character rolls a Hit Die to regain HP, they regain the maximum possible amount on a roll of 1 or 2.
+
+Updated the **Durable** feat to align with the 2024 PHB.
+
+The feat now grants +1 Constitution, and when the character rolls a Hit Die to regain HP, they regain the maximum possible amount on a roll of 1 or 2.
 
 ---
 
 ### 🔵 update Dungeon Delver
 
 [`a301982`](https://github.com/Yoonmoonsik/dnd55e/commit/a30198243c4f39f02aab614f683eff1022cadcf3) · *yoonmoonsik*
-Updated the **Dungeon Delver** feat to align with the 2024 PHB. Adds +1 to an ability score of choice and revises the passive bonuses for trap detection, secret door searching, and resistance to trap damage.
+
+Updated the **Dungeon Delver** feat to align with the 2024 PHB.
+
+Adds +1 to an ability score of choice and revises the passive bonuses for trap detection, secret door searching, and resistance to trap damage.
 
 ---
 
 ### 🔵 update Ritual Caster
 
 [`e6d7707`](https://github.com/Yoonmoonsik/dnd55e/commit/e6d7707128917ca6bd9b6da7f4681e1942f1c531) · *yoonmoonsik*
-Updated the **Ritual Caster** feat to align with the 2024 PHB. The feat now grants +1 to Intelligence, Wisdom, or Charisma, and allows ritual spells to be cast from a ritual book without preparing them.
+
+Updated the **Ritual Caster** feat to align with the 2024 PHB. 
+
+The feat now grants +1 to Intelligence, Wisdom, or Charisma, and allows ritual spells to be cast from a ritual book without preparing them.
 
 ---
 
 ### 🔵 update spell icons
 
 [`03d2085`](https://github.com/Yoonmoonsik/dnd55e/commit/03d2085deb41b92f69586cfb8a252a7c6e56b84d) · *yoonmoonsik*
-Updated icons for various spells. Ensures all spells display a clear, representative icon in the spellbook, action bar, and tooltip UI.
+
+Updated icons for various spells. 
+
+Ensures all spells display a clear, representative icon in the spellbook, action bar, and tooltip UI.
 
 ---
 
 ### 🔵 update Sword Burst
 
 [`aaa2528`](https://github.com/Yoonmoonsik/dnd55e/commit/aaa252831a59f311881e30f47ae65480f6da76ac) · *yoonmoonsik*
-Updated **Sword Burst** to reflect the 2024 cantrip rules. Adjusts the AOE and damage scaling so it properly affects all creatures within 5 feet and deals force damage scaling with character level.
+
+Updated **Sword Burst** to reflect the 2024 cantrip rules. 
+
+Adjusts the AOE and damage scaling so it properly affects all creatures within 5 feet and deals force damage scaling with character level.
 
 ---
 
 ### 🔵 update Green-Flame Blade
 
 [`e80ee3b`](https://github.com/Yoonmoonsik/dnd55e/commit/e80ee3b427e3353a7431a3c58ea690f75fbe3125) · *yoonmoonsik*
-Updated **Green-Flame Blade** to reflect the 2024 cantrip rules. Adjusts the secondary fire damage leap mechanic and scaling so it properly uses the caster's spellcasting modifier at the appropriate character levels.
+
+Updated **Green-Flame Blade** to reflect the 2024 cantrip rules. 
+
+Adjusts the secondary fire damage leap mechanic and scaling so it properly uses the caster's spellcasting modifier at the appropriate character levels.
 
 ---
 
 ### 🔵 update Tasha's Mind Whip
 
 [`9cd16c8`](https://github.com/Yoonmoonsik/dnd55e/commit/9cd16c8b2aa9ccac8c77f9241ca5a1e0043329fa) · *yoonmoonsik*
-Updated **Tasha's Mind Whip** to reflect the 2024 spell rules. Adjusts the psychic damage, action restriction effect, and additional target scaling at higher spell slots.
+
+Updated **Tasha's Mind Whip** to reflect the 2024 spell rules. 
+
+Adjusts the psychic damage, action restriction effect, and additional target scaling at higher spell slots.
 
 ---
 
@@ -3307,27 +3477,37 @@ Updated **Tasha's Mind Whip** to reflect the 2024 spell rules. Adjusts the psych
 ### 🔵 update Vitriolic Sphere
 
 [`23afa9f`](https://github.com/Yoonmoonsik/dnd55e/commit/23afa9f81ff513bbc55ae1071f4f6e753ae68340) · *yoonmoonsik*
-Updated **Vitriolic Sphere** to reflect the 2024 spell rules. Adjusts the acid damage on hit and the ongoing acid damage on failed saves to match the revised damage values and scaling.
+
+Updated **Vitriolic Sphere** to reflect the 2024 spell rules. 
+
+Adjusts the acid damage on hit and the ongoing acid damage on failed saves to match the revised damage values and scaling.
 
 ---
 
 ### 🔵 update Snilloc's Snowball Swarm
 
 [`fe5f444`](https://github.com/Yoonmoonsik/dnd55e/commit/fe5f44421c0c38fa6d2c9a5149e5984fe0076602) · *yoonmoonsik*
-Updated **Snilloc's Snowball Swarm** to reflect the 2024 spell rules. Adjusts the cold damage area of effect and higher-slot scaling to match the revised spell behavior.
+
+Updated **Snilloc's Snowball Swarm** to reflect the 2024 spell rules. 
+
+Adjusts the cold damage area of effect and higher-slot scaling to match the revised spell behavior.
 
 ---
 
 ### 🔵 update wrathful smite vfx
 
 [`a313bb6`](https://github.com/Yoonmoonsik/dnd55e/commit/a313bb608c4014b4750e737716f2ec04e945aff8) · *yoonmoonsik*
-Updated the visual effects for **Wrathful Smite**. Improves the VFX presentation of the smite to better convey the psychic terror it inflicts on the target.
+
+Updated the visual effects for **Wrathful Smite**. 
+
+Improves the VFX presentation of the smite to better convey the psychic terror it inflicts on the target.
 
 ---
 
 ### 🔵 update READMD
 
 [`fa63308`](https://github.com/Yoonmoonsik/dnd55e/commit/fa633082e1df2226316393f4cac9657db3bbacd3) · *yoonmoonsik*
+
 Updated the repository README with new documentation covering recently implemented spells, classes, and features.
 
 ---
@@ -3335,90 +3515,127 @@ Updated the repository README with new documentation covering recently implement
 ### 🔵 update Wrathful Smite
 
 [`5cd4edc`](https://github.com/Yoonmoonsik/dnd55e/commit/5cd4edc80ef183300fafce8648600e346ca163eb) · *yoonmoonsik*
-Updated **Wrathful Smite** to reflect the 2024 rules. The spell no longer requires concentration and now automatically applies its psychic damage and Frightened condition on a failed Wisdom save when the attack hits.
+
+Updated **Wrathful Smite** to reflect the 2024 rules. 
+
+The spell no longer requires concentration and now automatically applies its psychic damage and Frightened condition on a failed Wisdom save when the attack hits.
 
 ---
 
 ### 🔵 update witch bolt
 
 [`4559e93`](https://github.com/Yoonmoonsik/dnd55e/commit/4559e935b1299379c8f1349d9578289fbc6001ad) · *yoonmoonsik*
-Updated **Witch Bolt** to reflect the 2024 rules. The spell now deals lightning damage on casting and on each subsequent turn as a Bonus Action without requiring concentration, and scales better at higher slots.
+
+Updated **Witch Bolt** to reflect the 2024 rules. 
+
+The spell now deals lightning damage on casting and on each subsequent turn as a Bonus Action without requiring concentration, and scales better at higher slots.
 
 ---
 
 ### 🔵 update Web
 
 [`d2e48ec`](https://github.com/Yoonmoonsik/dnd55e/commit/d2e48ec0d78438824d9acdd4e4dd60e7397b0235) · *yoonmoonsik*
-Updated **Web** to reflect the 2024 spell rules. Adjusts the Restrained condition application, Strength save DC, and the flammability interaction to match the revised spell behavior.
+
+Updated **Web** to reflect the 2024 spell rules. 
+
+Adjusts the Restrained condition application, Strength save DC, and the flammability interaction to match the revised spell behavior.
 
 ---
 
 ### 🔵 update Warding Bond
 
 [`0e8d664`](https://github.com/Yoonmoonsik/dnd55e/commit/0e8d6642b76b785054a945ce762e7fa7c0a88f28) · *yoonmoonsik*
-Updated **Warding Bond** to reflect the 2024 rules. Adjusts the shared damage, AC bonus, and saving throw bonus to ensure the spell functions correctly at range and applies damage sharing accurately.
+
+Updated **Warding Bond** to reflect the 2024 rules. 
+
+Adjusts the shared damage, AC bonus, and saving throw bonus to ensure the spell functions correctly at range and applies damage sharing accurately.
 
 ---
 
 ### 🔵 update Vicious Mockery
 
 [`6c6f78b`](https://github.com/Yoonmoonsik/dnd55e/commit/6c6f78b406fa886acc6a1d7b6c5ec2513e0e547b) · *yoonmoonsik*
-Updated **Vicious Mockery** to reflect the 2024 cantrip rules. The cantrip now deals psychic damage on a failed Wisdom save and imposes disadvantage on the target's next attack roll, scaling with character level.
+
+Updated **Vicious Mockery** to reflect the 2024 cantrip rules. 
+
+The cantrip now deals psychic damage on a failed Wisdom save and imposes disadvantage on the target's next attack roll, scaling with character level.
 
 ---
 
 ### 🔵 update searing smite
 
 [`6cb0d8c`](https://github.com/Yoonmoonsik/dnd55e/commit/6cb0d8cb608e9564447cc89460f560ee56c1beee) · *yoonmoonsik*
-Updated **Searing Smite** to reflect the 2024 rules. The spell no longer requires concentration — fire damage is dealt immediately on hit and the ongoing burning damage persists automatically for the duration.
+
+Updated **Searing Smite** to reflect the 2024 rules. 
+
+The spell no longer requires concentration — fire damage is dealt immediately on hit and the ongoing burning damage persists automatically for the duration.
 
 ---
 
 ### 🔵 update thunderous smite
 
 [`0678272`](https://github.com/Yoonmoonsik/dnd55e/commit/0678272b4b882f0214e70e633054ca2629da5fd7) · *yoonmoonsik*
-Updated **Thunderous Smite** to reflect the 2024 rules. The spell no longer requires concentration and now deals thunder damage plus a Strength save-based push effect immediately on hit.
+
+Updated **Thunderous Smite** to reflect the 2024 rules.
+
+The spell no longer requires concentration and now deals thunder damage plus a Strength save-based push effect immediately on hit.
 
 ---
 
 ### ⚪ remove not using script
 
 [`750ab87`](https://github.com/Yoonmoonsik/dnd55e/commit/750ab870a3aa9601256b30f1ac99c1e16055efe7) · *yoonmoonsik*
-Removed unused script files from the mod. A code cleanup with no gameplay impact.
+
+Removed unused script files from the mod. 
+
+A code cleanup with no gameplay impact.
 
 ---
 
 ### 🔴 fix magicinitiate
 
 [`6dcdedf`](https://github.com/Yoonmoonsik/dnd55e/commit/6dcdedfd405ea008950f05c0f2a270281c2da119) · *yoonmoonsik*
-Fixed **Magic Initiate** not correctly granting its selected spells. Corrected the feat's spell assignment logic to ensure the chosen cantrips and leveled spell are properly added to the character's spell list.
+
+Fixed **Magic Initiate** not correctly granting its selected spells. 
+
+Corrected the feat's spell assignment logic to ensure the chosen cantrips and leveled spell are properly added to the character's spell list.
 
 ---
 
 ### 🔵 update Tasha's Hideous Laughter
 
 [`6f119e8`](https://github.com/Yoonmoonsik/dnd55e/commit/6f119e8cb6c6a43317573c586b92ae0309f8e636) · *yoonmoonsik*
-Updated **Tasha's Hideous Laughter** to reflect the 2024 spell rules. Adjusts the Wisdom save, Incapacitated condition, and the end-of-turn save to break the effect to match the revised spell behavior.
+
+Updated **Tasha's Hideous Laughter** to reflect the 2024 spell rules. 
+
+Adjusts the Wisdom save, Incapacitated condition, and the end-of-turn save to break the effect to match the revised spell behavior.
 
 ---
 
 ### 🔵 update stoneskin
 
 [`7468cb3`](https://github.com/Yoonmoonsik/dnd55e/commit/7468cb33017d3cb647402250fc81a90156d3021a) · *yoonmoonsik*
-Updated **Stoneskin** to reflect the 2024 spell rules. The spell now grants resistance to Bludgeoning, Piercing, and Slashing damage without requiring concentration, updating the status flags accordingly.
+
+Updated **Stoneskin** to reflect the 2024 spell rules. 
+
+The spell now grants resistance to Bludgeoning, Piercing, and Slashing damage without requiring concentration, updating the status flags accordingly.
 
 ---
 
 ### 🔵 update sleep
 
 [`6b88ca5`](https://github.com/Yoonmoonsik/dnd55e/commit/6b88ca5d54b105d5b98acd602bd12159b312318f) · *yoonmoonsik*
-Updated **Sleep** to reflect the 2024 spell rules. The spell now affects creatures based on a 5d8 HP pool (no longer scaling with slots), affects any creature regardless of current HP, and no longer has the lowest-HP-first priority.
+
+Updated **Sleep** to reflect the 2024 spell rules. 
+
+The spell now affects creatures based on a 5d8 HP pool (no longer scaling with slots), affects any creature regardless of current HP, and no longer has the lowest-HP-first priority.
 
 ---
 
 ### 🔵 update Searing Smite
 
 [`6f28ecf`](https://github.com/Yoonmoonsik/dnd55e/commit/6f28ecfb651502ee4bd1f167b100cdb7282e9b0b) · *yoonmoonsik*
+
 Additional update pass on **Searing Smite** to finalize the concentration removal and ensure the ongoing fire damage and Constitution save logic function correctly in all combat scenarios.
 
 ---
@@ -3426,21 +3643,30 @@ Additional update pass on **Searing Smite** to finalize the concentration remova
 ### 🔵 update spell
 
 [`5bd4acc`](https://github.com/Yoonmoonsik/dnd55e/commit/5bd4acc9acd2feda71ef452bd4f39cf8e1a609f3) · *yoonmoonsik*
-General spell update pass. Adjusts stat entries for several spells to correct scaling, damage type, or condition flags that were not yet aligned with the 2024 rules.
+
+General spell update pass. 
+
+Adjusts stat entries for several spells to correct scaling, damage type, or condition flags that were not yet aligned with the 2024 rules.
 
 ---
 
 ### 🔵 update Phantom Steed, Otiluke's Resilient Sphere, Phantasmal Killer, Polymorph
 
 [`fe67bf3`](https://github.com/Yoonmoonsik/dnd55e/commit/fe67bf3b1fcccbff5ee2c9780257d22ee70cfdca) · *yoonmoonsik*
-Updated **Phantom Steed**, **Otiluke's Resilient Sphere**, **Phantasmal Killer**, and **Polymorph** to reflect the 2024 spell rules. Adjusts duration, concentration requirements, saving throw conditions, and effect interactions for each spell.
+
+Updated **Phantom Steed**, **Otiluke's Resilient Sphere**, **Phantasmal Killer**, and **Polymorph** to reflect the 2024 spell rules.
+
+Adjusts duration, concentration requirements, saving throw conditions, and effect interactions for each spell.
 
 ---
 
 ### 🔵 update MistyStep
 
 [`a318182`](https://github.com/Yoonmoonsik/dnd55e/commit/a3181826b2766fc7f692456b98b480d65b4e231c) · *yoonmoonsik*
-Updated **Misty Step** to reflect the 2024 spell rules. Adjusts the teleportation distance, Bonus Action cost, and any condition restrictions to match the revised spell behavior.
+
+Updated **Misty Step** to reflect the 2024 spell rules. 
+
+Adjusts the teleportation distance, Bonus Action cost, and any condition restrictions to match the revised spell behavior.
 
 ---
 
