@@ -3619,11 +3619,17 @@ Added generated resource files to `.gitignore`. Prevents auto-generated stat out
 
 [`a80b5c4`](https://github.com/Yoonmoonsik/dnd55e/commit/a80b5c412648d25cc51c07e9b005c186498350e2) · *yoonmoonsik*
 
+Added Shout action definitions for Dodge and Disengage combat actions.
+Added DODGE status data and linked spell container entries for action integration
+
 ---
 
 ### 🔴 fix: block pre-combat dash speed exploit
 
 [`bb33f5e`](https://github.com/Yoonmoonsik/dnd55e/commit/bb33f5edf54dc595e9e9c9d6ace7ac57c10dbd67) · *yoonmoonsik*
+
+Fixed a pre-combat Dash exploit that allowed unintended movement speed carryover into combat.
+Added a passive that automatically removes Dash-related statuses when combat starts.
 
 ---
 
@@ -3631,16 +3637,25 @@ Added generated resource files to `.gitignore`. Prevents auto-generated stat out
 
 [`d29fda2`](https://github.com/Yoonmoonsik/dnd55e/commit/d29fda2b46990f9b3b335d6b4395d9c98ef86d39) · *yoonmoonsik*
 
+Added .gitignore rules to exclude generated story and game-related files from version control.
+Improved repository cleanliness by preventing temporary and locally generated files from being tracked.
+
 ---
 
 ### 🟢 Add passive data entries for weapon equipping and attack mechanics
 
 [`d74f7c8`](https://github.com/Yoonmoonsik/dnd55e/commit/d74f7c876080f0ce86832d2ef9c09653ad76d143) · *yoonmoonsik*
 
+Added passive data entries for weapon equipping behavior and attack interaction mechanics.
+Implemented foundational passive definitions used for combat state handling and weapon-based action logic.
+
 ---
 
 ### 🟢 Add initial project files and symbolic links for dnd5.5e mod
 
 [`b156a6d`](https://github.com/Yoonmoonsik/dnd55e/commit/b156a6dd6d74219f87c25679372ccb46b251f500) · *yoonmoonsik*
+
+Added the initial DnD 5.5e mod project structure, including core folders and configuration files.
+Added symbolic links and base setup files required for BG3 mod development and data integration.
 
 ---
