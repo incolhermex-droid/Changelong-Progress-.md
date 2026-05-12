@@ -7,11 +7,21 @@
 
 [`ae458d6`](https://github.com/Yoonmoonsik/dnd55e/commit/ae458d675b1fdc9bd3bc063239b1ae5a8c07d183) · *yoonmoonsik*
 
+Fixed issues in the passive/feature data structure affecting how actor abilities are registered and resolved in the 5.5e system.
+
+Adjusted generated rule data to ensure proper integration with core combat and class feature handling systems.
+
 ---
 
 ### 🔴 fix #223
 
 [`cb553f4`](https://github.com/Yoonmoonsik/dnd55e/commit/cb553f46cb2ffa1faaa30c19a8805f3ab72ed2c1) · *yoonmoonsik*
+
+Added missing VOW_OF_ENMITY status definition and linked it to base BOOST system data.
+
+Fixed VOW_OF_ENMITY_RECAST by restoring proper display name, icon, and removing incorrect stack/type and status flags.
+
+Updated localization entry for “Vow of Enmity” to properly reference the new status handle.
 
 ---
 
@@ -19,11 +29,19 @@
 
 [`8e96759`](https://github.com/Yoonmoonsik/dnd55e/commit/8e96759f513fde5991fe0bbcb4e918d698c71281) · *Yoonmoonsik*
 
+Fixed Latin Spanish localization for “Inspired Movement” passive description.
+
+Corrected wording to properly reflect that affected allies no longer provoke Opportunity Attacks when moving.
+
 ---
 
 ### 🔴 Merge pull request #222 from incolhermex-droid/patch-9
 
 [`3bf098f`](https://github.com/Yoonmoonsik/dnd55e/commit/3bf098fc5839e308b48c96a202cfbe42d7a51171) · *Yoonmoonsik*
+
+Fixed Spanish localization for “Inspired Movement” passive description.
+
+Clarified wording to correctly state that affected allies do not provoke Opportunity Attacks when using the feature.
 
 ---
 
@@ -31,17 +49,29 @@
 
 [`8f380ec`](https://github.com/Yoonmoonsik/dnd55e/commit/8f380ec0ba608fd32fdaa41065b9ab95ad46bfc6) · *yoonmoonsik*
 
+Fixed Phantom Steed status application duration inconsistency by correcting ApplyStatus duration value from 10 to 100.
+
+Synchronized runtime and generated spell data to ensure consistent status duration across SpellData and Generated definitions.
+
 ---
 
 ### 🔴 Update fix 1.0.4 spanish.xml
 
 [`66157bd`](https://github.com/Yoonmoonsik/dnd55e/commit/66157bd351d6e8fe533def19966674c2431b5b09) · *incolhermex-droid*
 
+Fixed Spanish localization for Inspired Movement description.
+
+Updated wording to correctly state that affected allies do not provoke Opportunity Attacks when moving under the feature.
+
 ---
 
 ### 🔵 Update latinSpanish.xml
 
 [`503bd84`](https://github.com/Yoonmoonsik/dnd55e/commit/503bd844d88b518ac8563985517eaaef0b9e042c) · *incolhermex-droid*
+
+Fixed Latin American Spanish localization for Inspired Movement passive description.
+
+Corrected translation to properly state that affected allies do not provoke Opportunity Attacks when using the feature.
 
 ---
 
