@@ -3673,28 +3673,40 @@ Adjusts the teleportation distance, Bonus Action cost, and any condition restric
 ### 🔵 update Melf's Acid Arrow
 
 [`70e962d`](https://github.com/Yoonmoonsik/dnd55e/commit/70e962dc3416a5e4fbaa24ec9a5f87e3785d89bb) · *yoonmoonsik*
-Updated **Melf's Acid Arrow** to reflect the 2024 spell rules. Adjusts the ranged spell attack damage, ongoing acid damage on a failed save, and higher-slot scaling values.
+
+Updated **Melf's Acid Arrow** to reflect the 2024 spell rules. 
+
+Adjusts the ranged spell attack damage, ongoing acid damage on a failed save, and higher-slot scaling values.
 
 ---
 
 ### 🔵 update Mass Healing Word
 
 [`e9ff562`](https://github.com/Yoonmoonsik/dnd55e/commit/e9ff56230ae8e70d8d1755ce60faaaeb947f9ceb) · *yoonmoonsik*
-Updated **Mass Healing Word** to reflect the 2024 spell rules. Adjusts the healing formula and number of targets to match the revised Bonus Action healing spell behavior.
+
+Updated **Mass Healing Word** to reflect the 2024 spell rules.
+
+Adjusts the healing formula and number of targets to match the revised Bonus Action healing spell behavior.
 
 ---
 
 ### 🔵 update Mass Cure Wounds
 
 [`22938b6`](https://github.com/Yoonmoonsik/dnd55e/commit/22938b66cb8c43ee1cc3a7708e1bc4478c54ab78) · *yoonmoonsik*
-Updated **Mass Cure Wounds** to reflect the 2024 spell rules. Adjusts the healing amount per target and the maximum number of creatures affected at base and higher spell slots.
+
+Updated **Mass Cure Wounds** to reflect the 2024 spell rules.
+
+Adjusts the healing amount per target and the maximum number of creatures affected at base and higher spell slots.
 
 ---
 
 ### 🔵 update magic weapon
 
 [`90f6e95`](https://github.com/Yoonmoonsik/dnd55e/commit/90f6e958c63e9564e99da76b38e8d4309636fc08) · *yoonmoonsik*
-Updated **Magic Weapon** to reflect the 2024 spell rules. The spell now grants a +1 bonus at base and scales to +2 at 5th level and +3 at 7th level, and no longer requires concentration.
+
+Updated **Magic Weapon** to reflect the 2024 spell rules. 
+
+The spell now grants a +1 bonus at base and scales to +2 at 5th level and +3 at 7th level, and no longer requires concentration.
 
 ---
 
@@ -3703,77 +3715,110 @@ Updated **Magic Weapon** to reflect the 2024 spell rules. The spell now grants a
 ### 🔵 update spells
 
 [`224e210`](https://github.com/Yoonmoonsik/dnd55e/commit/224e210b9f9f3f346e4894c6fd3f2b2cc6043fb8) · *yoonmoonsik*
-General spell update pass covering several spells not yet revised to 2024 standards. Adjusts damage, duration, concentration flags, and saving throw conditions across the affected entries.
+
+General spell update pass covering several spells not yet revised to 2024 standards. 
+
+Adjusts damage, duration, concentration flags, and saving throw conditions across the affected entries.
 
 ---
 
 ### 🔵 update spells
 
 [`a2fd3ab`](https://github.com/Yoonmoonsik/dnd55e/commit/a2fd3ab54f08a5156930570e18463b39c587edbb) · *yoonmoonsik*
-Continued spell update pass. Corrects stat entries for additional spells to align damage scaling, area of effect, and condition logic with the 2024 PHB spell list.
+
+Continued spell update pass. 
+
+Corrects stat entries for additional spells to align damage scaling, area of effect, and condition logic with the 2024 PHB spell list.
 
 ---
 
 ### 🔵 update spells
 
 [`42bc352`](https://github.com/Yoonmoonsik/dnd55e/commit/42bc3529d175949b2f5ed96647780e22da32b255) · *yoonmoonsik*
-Further spell update pass. Finalizes remaining spell entries requiring adjustments to duration, range, or effect conditions per the 2024 rules.
+
+Further spell update pass. 
+
+Finalizes remaining spell entries requiring adjustments to duration, range, or effect conditions per the 2024 rules.
 
 ---
 
 ### 🔵 update cloud of daggers
 
 [`9b3fc21`](https://github.com/Yoonmoonsik/dnd55e/commit/9b3fc21a121a138b5cb2fd7c1b791b972fd1098a) · *yoonmoonsik*
-Updated **Cloud of Daggers** to reflect the 2024 spell rules. Adjusts the damage dealt to creatures entering or starting their turn in the area, and the concentration requirement handling.
+
+Updated **Cloud of Daggers** to reflect the 2024 spell rules. 
+
+Adjusts the damage dealt to creatures entering or starting their turn in the area, and the concentration requirement handling.
 
 ---
 
 ### 🔵 update chromatic orb
 
 [`326cd46`](https://github.com/Yoonmoonsik/dnd55e/commit/326cd46ea0e4f04d86c410d76da1e19bfba3bdb0) · *yoonmoonsik*
-Updated **Chromatic Orb** to reflect the 2024 spell rules. Adjusts damage type selection, damage dice, and higher-slot scaling to match the revised spell entry.
+
+Updated **Chromatic Orb** to reflect the 2024 spell rules.
+
+Adjusts damage type selection, damage dice, and higher-slot scaling to match the revised spell entry.
 
 ---
 
 ### 🔵 update spells
 
 [`75299cb`](https://github.com/Yoonmoonsik/dnd55e/commit/75299cbc501412e540fc87fd0e48e01ae43464df) · *yoonmoonsik*
-Additional spell update pass. Addresses remaining spells needing stat corrections to fully align the spell list with the 2024 PHB.
+
+Additional spell update pass. 
+
+Addresses remaining spells needing stat corrections to fully align the spell list with the 2024 PHB.
 
 ---
 
 ### 🔴 fix wildshape(Moon Druid)
 
 [`cf72ad8`](https://github.com/Yoonmoonsik/dnd55e/commit/cf72ad80a1f91544bf8599f24843e4055954b1e7) · *yoonmoonsik*
-Fixed **Circle of the Moon Druid** Wild Shape not functioning correctly. Corrected the available form list, temporary HP grant on transformation, and combat Wild Shape action cost to match the 2024 rules.
+
+Fixed **Circle of the Moon Druid** Wild Shape not functioning correctly. 
+
+Corrected the available form list, temporary HP grant on transformation, and combat Wild Shape action cost to match the 2024 rules.
 
 ---
 
 ### 🔵 update Natures Wrath
 
 [`6fc2668`](https://github.com/Yoonmoonsik/dnd55e/commit/6fc2668b09cc2e65a4938623cf031ae9a4a04998) · *yoonmoonsik*
-Updated **Nature's Wrath** (Oath of the Ancients Paladin Channel Divinity). Adjusts the Restrained condition application and Strength or Dexterity save to match the 2024 spell behavior.
+
+Updated **Nature's Wrath** (Oath of the Ancients Paladin Channel Divinity). 
+
+Adjusts the Restrained condition application and Strength or Dexterity save to match the 2024 spell behavior.
 
 ---
 
 ### 🔴 fix MagicInitiate
 
 [`65a3da6`](https://github.com/Yoonmoonsik/dnd55e/commit/65a3da6a8c61b87ef1a2b11e8ccd59276c6ec60b) · *yoonmoonsik*
-Fixed **Magic Initiate** not granting its spells correctly after a previous update broke the feat assignment logic. Restored proper cantrip and spell granting for all class variants of the feat.
+
+Fixed **Magic Initiate** not granting its spells correctly after a previous update broke the feat assignment logic.
+
+Restored proper cantrip and spell granting for all class variants of the feat.
 
 ---
 
 ### 🔵 update weapons
 
 [`fcc2a1f`](https://github.com/Yoonmoonsik/dnd55e/commit/fcc2a1f2247e333d35e69ac3f57f22f7d09159b7) · *yoonmoonsik*
-General weapon update pass. Adjusts damage dice, properties, weight, and Weapon Mastery assignments across multiple weapon entries to align with the 2024 PHB weapon tables.
+
+**General weapon update pass.** 
+
+Adjusts damage dice, properties, weight, and Weapon Mastery assignments across multiple weapon entries to align with the 2024 PHB weapon tables.
 
 ---
 
 ### 🔵 update dance college
 
 [`932bf35`](https://github.com/Yoonmoonsik/dnd55e/commit/932bf35de76924771ffbed5b6fdfbaae78eb8a69) · *yoonmoonsik*
-Updated the **College of Dance Bard** subclass with revised feature logic. Adjusts Dazzling Footwork AC bonus, Inspiring Movement reaction, and Irresistible Dance spell integration to match the 2024 subclass design.
+
+Updated the **College of Dance Bard** subclass with revised feature logic. 
+
+Adjusts Dazzling Footwork AC bonus, Inspiring Movement reaction, and Irresistible Dance spell integration to match the 2024 subclass design.
 
 ---
 
@@ -3782,20 +3827,27 @@ Updated the **College of Dance Bard** subclass with revised feature logic. Adjus
 ### 🔵 update zealot path
 
 [`a4558d4`](https://github.com/Yoonmoonsik/dnd55e/commit/a4558d42eeb40ec352ec51f057750f70afc37f20) · *yoonmoonsik*
-Updated the **Path of the Zealot Barbarian** subclass to align with the 2024 rules. Adjusts Divine Fury, Warrior of the Gods, Fanatical Focus, and Zealous Presence feature implementations.
+
+Updated the **Path of the Zealot Barbarian** subclass to align with the 2024 rules.
+
+Adjusts Divine Fury, Warrior of the Gods, Fanatical Focus, and Zealous Presence feature implementations.
 
 ---
 
 ### 🔵 update World Tree Path
 
 [`7cca01c`](https://github.com/Yoonmoonsik/dnd55e/commit/7cca01c74474bbdf2e26725e4e459b6d1a96a5a6) · *yoonmoonsik*
-Updated the **Path of the World Tree Barbarian** subclass with revised feature logic. Adjusts Vitality of the Tree, Branches of the Tree, and Travel Along the Tree feature implementations.
+
+Updated the **Path of the World Tree Barbarian** subclass with revised feature logic. 
+
+Adjusts Vitality of the Tree, Branches of the Tree, and Travel Along the Tree feature implementations.
 
 ---
 
 ### 🟢 update feats
 
 [`9af37cd`](https://github.com/Yoonmoonsik/dnd55e/commit/9af37cd3161dcbbe7adae8a575c786febadfc909) · *yoonmoonsik*
+
 Updated multiple feats with revised passive logic, ASI integrations, and corrected prerequisites to align with the 2024 PHB feat design.
 
 ---
@@ -3803,7 +3855,12 @@ Updated multiple feats with revised passive logic, ASI integrations, and correct
 ### 🟢 update feat sentinel, sharpshooter
 
 [`b4e78a7`](https://github.com/Yoonmoonsik/dnd55e/commit/b4e78a7670dcf4eb6f26567dccb03cea189ad41e) · *yoonmoonsik*
-Updated the **Sentinel** and **Sharpshooter** feats to align with the 2024 PHB. Sentinel now grants +1 Strength, Dexterity, or Constitution and revises the opportunity attack reaction. Sharpshooter removes the -5/+10 trade-off and adds ranged weapon die upgrades instead.
+
+Updated the **Sentinel** and **Sharpshooter** feats to align with the 2024 PHB. 
+
+Sentinel now grants +1 Strength, Dexterity, or Constitution and revises the opportunity attack reaction. 
+
+Sharpshooter removes the -5/+10 trade-off and adds ranged weapon die upgrades instead.
 
 ---
 
@@ -3812,84 +3869,122 @@ Updated the **Sentinel** and **Sharpshooter** feats to align with the 2024 PHB. 
 ### 🟢 update multiple feats
 
 [`b7bee65`](https://github.com/Yoonmoonsik/dnd55e/commit/b7bee65ad0baec46f7bffabfbafcc6c9e6a325b4) · *yoonmoonsik*
-Broad feat update pass covering several PHB feats. Adds ASI bonuses, revises passive conditions, and aligns prerequisites with the 2024 feat design philosophy.
+
+Broad feat update pass covering several PHB feats. 
+
+Adds ASI bonuses, revises passive conditions, and aligns prerequisites with the 2024 feat design philosophy.
 
 ---
 
 ### 🟢 update feat Crossbow Expert, Defensive Duelist, Dual Wielder, Elemental Adept, Great Weapon Master
 
 [`5a166f1`](https://github.com/Yoonmoonsik/dnd55e/commit/5a166f1d38e625224f9ab269e90e530541e52199) · *yoonmoonsik*
-Updated **Crossbow Expert**, **Defensive Duelist**, **Dual Wielder**, **Elemental Adept**, and **Great Weapon Master** to align with the 2024 PHB. Each feat now includes an ASI, revised passive logic, and updated combat interactions per the new rules.
+
+Updated **Crossbow Expert**, **Defensive Duelist**, **Dual Wielder**, **Elemental Adept**, and **Great Weapon Master** to align with the 2024 PHB.
+
+Each feat now includes an ASI, revised passive logic, and updated combat interactions per the new rules.
 
 ---
 
 ### 🟢 update feat Athlete, Charger
 
 [`e42a0a1`](https://github.com/Yoonmoonsik/dnd55e/commit/e42a0a1e58bb0d8686032cfae9b6eb95258602fa) · *yoonmoonsik*
-Updated the **Athlete** and **Charger** feats to align with the 2024 PHB. Athlete now grants +1 Strength or Dexterity and revises climb/jump movement. Charger adds a Strength or Dexterity ASI and revises the charge attack bonus.
+
+Updated the **Athlete** and **Charger** feats to align with the 2024 PHB. 
+
+Athlete now grants +1 Strength or Dexterity and revises climb/jump movement. 
+
+Charger adds a Strength or Dexterity ASI and revises the charge attack bonus.
 
 ---
 
 ### 🔴 fix blooded
 
 [`4aed34d`](https://github.com/Yoonmoonsik/dnd55e/commit/4aed34d0e9d68cc6faaa4852a813fc19fca9ad6e) · *yoonmoonsik*
-Fixed the **Blooded** passive or condition not applying correctly. Corrected the trigger logic so the effect activates properly when the character is reduced below half their maximum hit points.
+
+Fixed the **Blooded** passive or condition not applying correctly. 
+
+Corrected the trigger logic so the effect activates properly when the character is reduced below half their maximum hit points.
 
 ---
 
 ### 🔴 fix cleric spelllist
 
 [`c810870`](https://github.com/Yoonmoonsik/dnd55e/commit/c810870c53efbce717c70b4e834aef6e11231492) · *yoonmoonsik*
-Fixed the **Cleric** spell list missing or incorrectly assigning spells after a previous update. Restored the full 2024 Cleric spell list ensuring all spells are available at their correct levels.
+
+Fixed the **Cleric** spell list missing or incorrectly assigning spells after a previous update. 
+
+Restored the full 2024 Cleric spell list ensuring all spells are available at their correct levels.
 
 ---
 
 ### 🔴 fix magicinitiate
 
 [`a5db0ea`](https://github.com/Yoonmoonsik/dnd55e/commit/a5db0eadf36cf038f6fd2dde26ec4daf82278ecb) · *yoonmoonsik*
-Fixed **Magic Initiate** again following additional edge cases discovered after the previous patch. Ensures all class variants of the feat correctly grant their two cantrips and one leveled spell.
+
+Fixed **Magic Initiate** again following additional edge cases discovered after the previous patch.
+
+Ensures all class variants of the feat correctly grant their two cantrips and one leveled spell.
 
 ---
 
 ### 🟢 add AreaRadius for InvokeDuplicity
 
 [`847b4ea`](https://github.com/Yoonmoonsik/dnd55e/commit/847b4eac4c03e62dfe0e513d6666ada53a369b6b) · *yoonmoonsik*
-Added a visual area radius indicator to **Invoke Duplicity** (Trickery Cleric Channel Divinity). Players can now see the range within which the duplicate must stay for the Cleric to gain advantage on attack rolls.
+
+Added a visual area radius indicator to **Invoke Duplicity** (Trickery Cleric Channel Divinity). 
+
+Players can now see the range within which the duplicate must stay for the Cleric to gain advantage on attack rolls.
 
 ---
 
 ### ⚪ change hide stealth check dc
 
 [`56d91a6`](https://github.com/Yoonmoonsik/dnd55e/commit/56d91a69a69e3f371a62ec2cf45576124e4edc40) · *yoonmoonsik*
-Adjusted the DC for **Hide** stealth checks. A balance change to bring the detection difficulty more in line with the 2024 rules and the expected challenge rating of encounters.
+
+Adjusted the DC for **Hide** stealth checks. 
+
+A balance change to bring the detection difficulty more in line with the 2024 rules and the expected challenge rating of encounters.
 
 ---
 
 ### 🟢 update background and origin feats
 
 [`c298fcf`](https://github.com/Yoonmoonsik/dnd55e/commit/c298fcf09b155f0052af094c4b47179679a8ea6f) · *yoonmoonsik*
-Updated all character backgrounds to grant their correct **Origin Feat** as per the 2024 PHB. Each background now properly awards its associated feat at character creation alongside skill proficiencies and starting equipment.
+
+Updated all character backgrounds to grant their correct **Origin Feat** as per the 2024 PHB.
+
+Each background now properly awards its associated feat at character creation alongside skill proficiencies and starting equipment.
 
 ---
 
 ### 🟢 update origin feat skilled
 
 [`970320e`](https://github.com/Yoonmoonsik/dnd55e/commit/970320e8e523b0d1aa4ec7a4d343bc58a23c9356) · *yoonmoonsik*
-Updated the **Skilled** Origin Feat to align with the 2024 PHB. The feat now grants proficiency in any combination of three skills or tools, properly implemented as a selection dialog at character creation.
+
+Updated the **Skilled** Origin Feat to align with the 2024 PHB. 
+
+The feat now grants proficiency in any combination of three skills or tools, properly implemented as a selection dialog at character creation.
 
 ---
 
 ### 🔵 update magic initiate cleric, druid, wizard
 
 [`65978a4`](https://github.com/Yoonmoonsik/dnd55e/commit/65978a4255f2ca8054fae58500d26c4c40a59f97) · *yoonmoonsik*
-Updated the **Magic Initiate** feat for the Cleric, Druid, and Wizard variants. Ensures each version correctly grants two cantrips and one level 1 spell from the chosen class list, with the 2024 rule that the spell can be cast once per long rest for free.
+
+Updated the **Magic Initiate** feat for the Cleric, Druid, and Wizard variants. 
+
+Ensures each version correctly grants two cantrips and one level 1 spell from the chosen class list, with the 2024 rule that the spell can be cast once per long rest for free.
 
 ---
 
 ### 🔵 update cunning strike
 
 [`5b11eff`](https://github.com/Yoonmoonsik/dnd55e/commit/5b11eff4373703558514d05d548ac0e63845253f) · *yoonmoonsik*
-Updated **Cunning Strike** (Rogue level 5 feature) to align with the 2024 rules. Implements the option to forgo some Sneak Attack dice to apply a Cunning Strike effect — Poison, Trip, Withdraw, or Disarm — on a hit.
+
+Updated **Cunning Strike** (Rogue level 5 feature) to align with the 2024 rules. 
+
+Implements the option to forgo some Sneak Attack dice to apply a Cunning Strike effect — Poison, Trip, Withdraw, or Disarm — on a hit.
 
 ---
 
@@ -3898,6 +3993,7 @@ Updated **Cunning Strike** (Rogue level 5 feature) to align with the 2024 rules.
 ### 🔵 update readme
 
 [`7863950`](https://github.com/Yoonmoonsik/dnd55e/commit/7863950fb59c164ae1246d544a7c79eaaf462510) · *yoonmoonsik*
+
 Updated the README with current feature documentation, supported content lists, and installation guidance reflecting the latest mod state.
 
 ---
@@ -3905,35 +4001,52 @@ Updated the README with current feature documentation, supported content lists, 
 ### 🔵 update truestrike, warlock invocations
 
 [`2b39c48`](https://github.com/Yoonmoonsik/dnd55e/commit/2b39c4888b913d5cb3a3c7f0820739546b6cbf87) · *yoonmoonsik*
-Updated **True Strike** and the **Warlock Eldritch Invocation** list. True Strike is revised to function as a 2024 melee spell attack cantrip, and invocations are updated with corrected prerequisites and effect conditions.
+
+Updated **True Strike** and the **Warlock Eldritch Invocation** list. 
+
+True Strike is revised to function as a 2024 melee spell attack cantrip, and invocations are updated with corrected prerequisites and effect conditions.
 
 ---
 
 ### 🔵 update warmagic, boomingblade, warlock cantrip etc
 
 [`3f1dd66`](https://github.com/Yoonmoonsik/dnd55e/commit/3f1dd66857dd05595ed32231bb941e6b26767a58) · *yoonmoonsik*
-Updated **War Magic**, **Booming Blade**, and several Warlock cantrips. Booming Blade now applies its thunder damage condition on movement. War Magic revises the Arcane Deflection and Tactical Wit features per the 2024 rules.
+
+Updated **War Magic**, **Booming Blade**, and several Warlock cantrips. 
+
+Booming Blade now applies its thunder damage condition on movement. 
+
+War Magic revises the Arcane Deflection and Tactical Wit features per the 2024 rules.
 
 ---
 
 ### 🟢 add mind sliver cantrip
 
 [`66ed251`](https://github.com/Yoonmoonsik/dnd55e/commit/66ed251e981cb073b7573dd98436b9b738abfb81) · *yoonmoonsik*
-Added the **Mind Sliver** cantrip to the mod. Implements the psychic damage Intelligence save cantrip that subtracts 1d4 from the target's next saving throw, available to Sorcerers, Warlocks, and Wizards.
+
+Added the **Mind Sliver** cantrip to the mod. 
+
+Implements the psychic damage Intelligence save cantrip that subtracts 1d4 from the target's next saving throw, available to Sorcerers, Warlocks, and Wizards.
 
 ---
 
 ### 🔵 update warlock invocation list
 
 [`0f63458`](https://github.com/Yoonmoonsik/dnd55e/commit/0f63458d8c42390d3150d1acfbdc02861734083d) · *yoonmoonsik*
-Updated the full **Warlock Eldritch Invocation** list to align with the 2024 PHB. Revises invocation prerequisites, effects, and adds newly introduced invocations from the updated Warlock class design.
+
+Updated the full **Warlock Eldritch Invocation** list to align with the 2024 PHB. 
+
+Revises invocation prerequisites, effects, and adds newly introduced invocations from the updated Warlock class design.
 
 ---
 
 ### 🔵 update wizard spell list
 
 [`9c324d1`](https://github.com/Yoonmoonsik/dnd55e/commit/9c324d144e82c907dd66d1a062cf8d6dc6455ec7) · *yoonmoonsik*
-Updated the **Wizard** spell list to align with the 2024 PHB. Ensures all spells are available at the correct levels and that newly added or revised spells are properly included in the Wizard's expanded list.
+
+Updated the **Wizard** spell list to align with the 2024 PHB. 
+
+Ensures all spells are available at the correct levels and that newly added or revised spells are properly included in the Wizard's expanded list.
 
 ---
 
@@ -3942,49 +4055,70 @@ Updated the **Wizard** spell list to align with the 2024 PHB. Ensures all spells
 ### 🔵 update Arcane vigor icon
 
 [`503324b`](https://github.com/Yoonmoonsik/dnd55e/commit/503324b809e5f16e787c9eb020bde6c085f1bfbf) · *yoonmoonsik*
-Updated the icon for **Arcane Vigor** (Wizard level 2 feature). Replaces a placeholder or incorrect icon with the correct visual representation for the ability.
+
+Updated the icon for **Arcane Vigor** (Wizard level 2 feature). 
+
+Replaces a placeholder or incorrect icon with the correct visual representation for the ability.
 
 ---
 
 ### 🔵 update warlock spell list
 
 [`d1f8ac0`](https://github.com/Yoonmoonsik/dnd55e/commit/d1f8ac0462a7c309e0d4a8dfece0840027dafab5) · *yoonmoonsik*
-Updated the **Warlock** spell list to align with the 2024 PHB. Ensures all spells are available at the correct Pact Magic slot levels and that the revised Warlock spell selection reflects the new class design.
+
+Updated the **Warlock** spell list to align with the 2024 PHB.
+
+Ensures all spells are available at the correct Pact Magic slot levels and that the revised Warlock spell selection reflects the new class design.
 
 ---
 
 ### 🔵 update sorcerer and sorcerer spell list
 
 [`098318b`](https://github.com/Yoonmoonsik/dnd55e/commit/098318b38f5c13e993202260847e7fb6f8f9cae3) · *yoonmoonsik*
-Updated the **Sorcerer** base class and its full spell list to align with the 2024 PHB. Revisions include the Innate Sorcery feature, Font of Magic improvements, and the expanded spell list available to Sorcerers.
+
+Updated the **Sorcerer** base class and its full spell list to align with the 2024 PHB. 
+
+Revisions include the Innate Sorcery feature, Font of Magic improvements, and the expanded spell list available to Sorcerers.
 
 ---
 
 ### 🔵 update paladin starting equipment
 
 [`3979d68`](https://github.com/Yoonmoonsik/dnd55e/commit/3979d68c4aa278ac1a2b32db12c0e33098f5e03d) · *yoonmoonsik*
-Updated **Paladin** starting equipment to match the 2024 PHB package. Corrects the equipment choices offered at character creation to reflect the holy warrior's revised gear options.
+
+Updated **Paladin** starting equipment to match the 2024 PHB package. 
+
+Corrects the equipment choices offered at character creation to reflect the holy warrior's revised gear options.
 
 ---
 
 ### 🟢 update rogue and subclasses
 
 [`5b79654`](https://github.com/Yoonmoonsik/dnd55e/commit/5b79654cca901ad2bb7fdda6bf5ecaced073bff3) · *yoonmoonsik*
-Updated the **Rogue** base class and all subclasses to align with the 2024 PHB. Revisions cover Cunning Action, Uncanny Dodge, Evasion, and the full subclass feature implementations for Thief, Arcane Trickster, Assassin, and Soulknife.
+
+Updated the **Rogue** base class and all subclasses to align with the 2024 PHB. 
+
+Revisions cover Cunning Action, Uncanny Dodge, Evasion, and the full subclass feature implementations for Thief, Arcane Trickster, Assassin, and Soulknife.
 
 ---
 
 ### 🟢 update ranger subclasses
 
 [`3f2704a`](https://github.com/Yoonmoonsik/dnd55e/commit/3f2704a63ccebb501c3c1c7fda2e46903e5664a2) · *yoonmoonsik*
-Updated all **Ranger** subclasses to align with the 2024 PHB. Revisions cover Hunter, Beast Master, Gloom Stalker, and Fey Wanderer feature implementations and expanded spell list assignments.
+
+Updated all **Ranger** subclasses to align with the 2024 PHB. 
+
+Revisions cover Hunter, Beast Master, Gloom Stalker, and Fey Wanderer feature implementations and expanded spell list assignments.
 
 ---
 
 ### 🔵 update ranger and spelllist
 
 [`b7d6f00`](https://github.com/Yoonmoonsik/dnd55e/commit/b7d6f008698a1e331efbf4dc983b6a76bbc50663) · *yoonmoonsik*
-Updated the **Ranger** base class and its spell list to align with the 2024 PHB. Revisions cover Favored Enemy, Deft Explorer, Tireless, Feral Senses, and the updated Ranger spell list.
+
+Updated the **Ranger** base class and its spell list to align with the 2024 PHB. 
+
+Revisions cover Favored Enemy, Deft Explorer, Tireless, Feral Senses, and the updated Ranger spell list.
 
 ---
 
@@ -3993,49 +4127,70 @@ Updated the **Ranger** base class and its spell list to align with the 2024 PHB.
 ### 🟢 update paladin and subclasses
 
 [`a22d8c2`](https://github.com/Yoonmoonsik/dnd55e/commit/a22d8c273282de73c56747bc41fb926a3d66aab7) · *yoonmoonsik*
-Updated the **Paladin** base class and all subclasses to align with the 2024 PHB. Revisions include Lay on Hands, Divine Smite (now a reaction), Channel Divinity, Auras, and full subclass implementations for all Oath options.
+
+Updated the **Paladin** base class and all subclasses to align with the 2024 PHB. 
+
+Revisions include Lay on Hands, Divine Smite (now a reaction), Channel Divinity, Auras, and full subclass implementations for all Oath options.
 
 ---
 
 ### 🟢 add spellset
 
 [`6072b93`](https://github.com/Yoonmoonsik/dnd55e/commit/6072b93378400608344c365ad4deabad148eac78) · *yoonmoonsik*
-Added a new spell set grouping. Organizes spells into logical sets for use by class progression tables, ensuring spells are unlocked at the correct levels for the relevant classes.
+
+Added a new spell set grouping. 
+
+Organizes spells into logical sets for use by class progression tables, ensuring spells are unlocked at the correct levels for the relevant classes.
 
 ---
 
 ### 🔵 update heavy weapon ability requirement
 
 [`5ca54a2`](https://github.com/Yoonmoonsik/dnd55e/commit/5ca54a2c3a259da483e18bc3c217ecc82660bf16) · *yoonmoonsik*
-Updated the **Heavy** weapon property to enforce the 2024 Strength requirement. Characters without a Strength score of 13 or higher now suffer disadvantage on attack rolls with Heavy weapons, as per the revised rules.
+
+Updated the **Heavy** weapon property to enforce the 2024 Strength requirement. 
+
+Characters without a Strength score of 13 or higher now suffer disadvantage on attack rolls with Heavy weapons, as per the revised rules.
 
 ---
 
 ### 🔵 update openhand monk
 
 [`3d1dd83`](https://github.com/Yoonmoonsik/dnd55e/commit/3d1dd836bda50b47b98a9d300a281399426c2543) · *yoonmoonsik*
-Updated the **Way of the Open Hand Monk** subclass to align with the 2024 PHB. Adjusts Open Hand Technique, Wholeness of Body, Fleet Step, and Quivering Palm feature implementations.
+
+Updated the **Way of the Open Hand Monk** subclass to align with the 2024 PHB.
+
+Adjusts Open Hand Technique, Wholeness of Body, Fleet Step, and Quivering Palm feature implementations.
 
 ---
 
 ### 🔵 update element monk
 
 [`34bd698`](https://github.com/Yoonmoonsik/dnd55e/commit/34bd6981f303cde289f218d4fd9335255b615849) · *yoonmoonsik*
-Updated the **Way of the Four Elements Monk** subclass to align with the 2024 PHB. Revises the elemental discipline system with the new Elemental Attunement cantrip and discipline selection framework.
+
+Updated the **Way of the Four Elements Monk** subclass to align with the 2024 PHB. 
+
+Revises the elemental discipline system with the new Elemental Attunement cantrip and discipline selection framework.
 
 ---
 
 ### 🔵 update element monk vfx and update icons
 
 [`5ec9dd2`](https://github.com/Yoonmoonsik/dnd55e/commit/5ec9dd27aaf52cbb9a6fdaa54cee30489f38d3f1) · *yoonmoonsik*
-Updated visual effects and icons for the **Way of the Four Elements Monk** disciplines. Ensures each elemental ability has an appropriate VFX and icon distinguishing fire, water, earth, and air disciplines in the UI.
+
+Updated visual effects and icons for the **Way of the Four Elements Monk** disciplines.
+
+Ensures each elemental ability has an appropriate VFX and icon distinguishing fire, water, earth, and air disciplines in the UI.
 
 ---
 
 ### 🔵 update monk
 
 [`47abb39`](https://github.com/Yoonmoonsik/dnd55e/commit/47abb39f98bc2f38d3bbd5037987aa9e78396f6e) · *yoonmoonsik*
-Updated the **Monk** base class to align with the 2024 PHB. Revisions cover Martial Arts die scaling, Ki point usage, Stunning Strike, Deflect Missiles, and the revised Step of the Wind and Patient Defense action economy.
+
+Updated the **Monk** base class to align with the 2024 PHB.
+
+Revisions cover Martial Arts die scaling, Ki point usage, Stunning Strike, Deflect Missiles, and the revised Step of the Wind and Patient Defense action economy.
 
 ---
 
@@ -4044,27 +4199,37 @@ Updated the **Monk** base class to align with the 2024 PHB. Revisions cover Mart
 ### 🔵 update monk (part)
 
 [`c52cdc3`](https://github.com/Yoonmoonsik/dnd55e/commit/c52cdc30d3ebfd9f4d88f26da4bcb4b54e8d804a) · *yoonmoonsik*
-Partial update to the **Monk** class covering the lower-level feature implementations. Adjusts Unarmored Defense, Martial Arts unarmed strikes, and the early Ki ability triggers as part of the phased Monk overhaul.
+
+Partial update to the **Monk** class covering the lower-level feature implementations. 
+
+Adjusts Unarmored Defense, Martial Arts unarmed strikes, and the early Ki ability triggers as part of the phased Monk overhaul.
 
 ---
 
 ### 🔵 update battle master
 
 [`7065300`](https://github.com/Yoonmoonsik/dnd55e/commit/70653006e0835f31310f485f9a9bcb481708a271) · *yoonmoonsik*
-Updated the **Battle Master Fighter** subclass to align with the 2024 PHB. Revisions cover Superiority Die scaling, Combat Superiority, Know Your Enemy, and the full Maneuver list with corrected save DCs and effect conditions.
+
+Updated the **Battle Master Fighter** subclass to align with the 2024 PHB. 
+
+Revisions cover Superiority Die scaling, Combat Superiority, Know Your Enemy, and the full Maneuver list with corrected save DCs and effect conditions.
 
 ---
 
 ### ⚪ change icon name
 
 [`2082fcc`](https://github.com/Yoonmoonsik/dnd55e/commit/2082fcc83a6e67cf602360eb3fe36e1a590c0df8) · *yoonmoonsik*
-Renamed an internal icon file to match the updated naming convention. A cosmetic/structural change with no gameplay impact.
+
+Renamed an internal icon file to match the updated naming convention. 
+
+A cosmetic/structural change with no gameplay impact.
 
 ---
 
 ### 🔵 update readme
 
 [`4faf61e`](https://github.com/Yoonmoonsik/dnd55e/commit/4faf61e201199eb9495fadfa48041688f932104c) · *yoonmoonsik*
+
 Updated the README with documentation for the Monk and Fighter class updates, reflecting the current supported content.
 
 ---
@@ -4072,27 +4237,37 @@ Updated the README with documentation for the Monk and Fighter class updates, re
 ### 🔵 update Eldritch Knight
 
 [`c3f6fe6`](https://github.com/Yoonmoonsik/dnd55e/commit/c3f6fe608643d1db8c5d7a67ca11484ccff675ec) · *yoonmoonsik*
-Updated the **Eldritch Knight Fighter** subclass to align with the 2024 PHB. Adjusts Spellcasting, Weapon Bond, War Magic, Eldritch Strike, and Arcane Charge feature implementations.
+
+Updated the **Eldritch Knight Fighter** subclass to align with the 2024 PHB. 
+
+Adjusts Spellcasting, Weapon Bond, War Magic, Eldritch Strike, and Arcane Charge feature implementations.
 
 ---
 
 ### 🔵 update Champion
 
 [`9e0f89a`](https://github.com/Yoonmoonsik/dnd55e/commit/9e0f89a1e07954e58519bea8d8081a6048e5d61d) · *yoonmoonsik*
-Updated the **Champion Fighter** subclass to align with the 2024 PHB. Adjusts Improved Critical (now critting on 19-20 from level 3), Remarkable Athlete, Additional Fighting Style, and Heroic Warrior feature implementations.
+
+Updated the **Champion Fighter** subclass to align with the 2024 PHB. 
+
+Adjusts Improved Critical (now critting on 19-20 from level 3), Remarkable Athlete, Additional Fighting Style, and Heroic Warrior feature implementations.
 
 ---
 
 ### ⚪ Heavy Armor Strength Requirement
 
 [`8fd6d87`](https://github.com/Yoonmoonsik/dnd55e/commit/8fd6d87b83a32d023174dac1904622270c1895a3) · *yoonmoonsik*
-Implemented the **Heavy Armor Strength Requirement** system. Characters without the minimum Strength score for their armor type now properly suffer a speed penalty, as per the 2024 PHB armor rules.
+
+Implemented the **Heavy Armor Strength Requirement** system. 
+
+Characters without the minimum Strength score for their armor type now properly suffer a speed penalty, as per the 2024 PHB armor rules.
 
 ---
 
 ### 🔵 update readme
 
 [`babe5a0`](https://github.com/Yoonmoonsik/dnd55e/commit/babe5a0c1251460fee3cea23c53313f4e1623734) · *yoonmoonsik*
+
 Updated the README to reflect the latest Fighter and armor rule implementations.
 
 ---
@@ -4100,42 +4275,60 @@ Updated the README to reflect the latest Fighter and armor rule implementations.
 ### 🟢 update fighter base class
 
 [`a0fab9a`](https://github.com/Yoonmoonsik/dnd55e/commit/a0fab9a831f0dce05b2eb8cb95550d054613bbab) · *yoonmoonsik*
-Updated the **Fighter** base class to align with the 2024 PHB. Revisions cover Second Wind improvements, Action Surge, Indomitable, Extra Attack scaling, and the revised Tactical Mind and Studied Attacks features.
+
+Updated the **Fighter** base class to align with the 2024 PHB. 
+
+Revisions cover Second Wind improvements, Action Surge, Indomitable, Extra Attack scaling, and the revised Tactical Mind and Studied Attacks features.
 
 ---
 
 ### 🟢 update druid and subclasses
 
 [`7b23161`](https://github.com/Yoonmoonsik/dnd55e/commit/7b2316118bf8ba477cc5446c6bd9f7aaffba26d5) · *yoonmoonsik*
-Updated the **Druid** base class and all subclasses to align with the 2024 PHB. Revisions cover the Wild Shape revamp, Primal Order, Elemental Fury, and full feature implementations for all Circle subclasses.
+
+Updated the **Druid** base class and all subclasses to align with the 2024 PHB. 
+
+Revisions cover the Wild Shape revamp, Primal Order, Elemental Fury, and full feature implementations for all Circle subclasses.
 
 ---
 
 ### 🟢 update druid primal order feature
 
 [`0c08aed`](https://github.com/Yoonmoonsik/dnd55e/commit/0c08aeda47d2be90dd7d13bcbab624e9f9110467) · *yoonmoonsik*
-Updated the **Druid Primal Order** level 2 feature. Correctly implements the Magician option (Druidic cantrip + language) and the Warden option (martial weapons + medium armor proficiency) as a choice at character creation.
+
+Updated the **Druid Primal Order** level 2 feature. 
+
+Correctly implements the Magician option (Druidic cantrip + language) and the Warden option (martial weapons + medium armor proficiency) as a choice at character creation.
 
 ---
 
 ### 🟢 add new spell and update druid spell list
 
 [`5dffbac`](https://github.com/Yoonmoonsik/dnd55e/commit/5dffbac21aa1dd013028ef012b571bfc9e4f8bc7) · *yoonmoonsik*
-Added one or more new spells and updated the **Druid** spell list to include all spells available in the 2024 PHB. Ensures Druids have access to newly added nature and summoning spells at the correct levels.
+
+Added one or more new spells and updated the **Druid** spell list to include all spells available in the 2024 PHB. 
+
+Ensures Druids have access to newly added nature and summoning spells at the correct levels.
 
 ---
 
 ### 🔵 update knowledge domain
 
 [`41d2671`](https://github.com/Yoonmoonsik/dnd55e/commit/41d2671f3ea777f89f71a99799947e9cf5fe32bd) · *yoonmoonsik*
-Updated the **Knowledge Domain Cleric** subclass to align with the 2024 PHB. Adjusts Blessings of Knowledge, Channel Divinity: Knowledge of the Ages, Read Thoughts, and Mind over Matter feature implementations.
+
+Updated the **Knowledge Domain Cleric** subclass to align with the 2024 PHB. 
+
+Adjusts Blessings of Knowledge, Channel Divinity: Knowledge of the Ages, Read Thoughts, and Mind over Matter feature implementations.
 
 ---
 
 ### 🟢 add readme
 
 [`53ce77f`](https://github.com/Yoonmoonsik/dnd55e/commit/53ce77f3d09cb71e9ef7a94f1ac5d60ee061965c) · *yoonmoonsik*
-Added the initial repository README. Provides the first public documentation for the mod including feature overview, installation instructions, and supported content.
+
+Added the initial repository README. 
+
+Provides the first public documentation for the mod including feature overview, installation instructions, and supported content.
 
 ---
 
@@ -4144,112 +4337,160 @@ Added the initial repository README. Provides the first public documentation for
 ### 🟢 add new spell steel wind strike
 
 [`1f604bd`](https://github.com/Yoonmoonsik/dnd55e/commit/1f604bd71c44afb1f77423e24cc1fc7a411c9620) · *yoonmoonsik*
-Added the **Steel Wind Strike** spell. Implements the 5th-level conjuration spell that allows the caster to make melee spell attacks against up to five targets, then teleport to one of them.
+
+Added the **Steel Wind Strike** spell. 
+
+Implements the 5th-level conjuration spell that allows the caster to make melee spell attacks against up to five targets, then teleport to one of them.
 
 ---
 
 ### 🔵 update war domain
 
 [`7b2ab11`](https://github.com/Yoonmoonsik/dnd55e/commit/7b2ab1151aad55188a1735eae739755081855a6b) · *yoonmoonsik*
-Updated the **War Domain Cleric** subclass to align with the 2024 PHB. Adjusts War Priest bonus attack uses, Channel Divinity: Guided Strike and War God's Blessing, Avatar of Battle, and the domain spell list.
+
+Updated the **War Domain Cleric** subclass to align with the 2024 PHB. 
+
+Adjusts War Priest bonus attack uses, Channel Divinity: Guided Strike and War God's Blessing, Avatar of Battle, and the domain spell list.
 
 ---
 
 ### 🟢 add war domain progression table
 
 [`325f909`](https://github.com/Yoonmoonsik/dnd55e/commit/325f909c08077f0ea03b593f32a221b7fb912224) · *yoonmoonsik*
-Added the progression table for the **War Domain Cleric** subclass. Required structural entry that defines when each War Domain feature is unlocked across the 20 Cleric levels.
+
+Added the progression table for the **War Domain Cleric** subclass. 
+
+Required structural entry that defines when each War Domain feature is unlocked across the 20 Cleric levels.
 
 ---
 
 ### 🔵 update trickery domain
 
 [`99a3639`](https://github.com/Yoonmoonsik/dnd55e/commit/99a3639e79e4bf31831f15508e60b889e142295a) · *yoonmoonsik*
-Updated the **Trickery Domain Cleric** subclass to align with the 2024 PHB. Adjusts Blessing of the Trickster, Channel Divinity: Invoke Duplicity and Cloak of Shadows, Divine Strike, and domain spell list.
+
+Updated the **Trickery Domain Cleric** subclass to align with the 2024 PHB.
+
+Adjusts Blessing of the Trickster, Channel Divinity: Invoke Duplicity and Cloak of Shadows, Divine Strike, and domain spell list.
 
 ---
 
 ### ⚪ stop tracking files
 
 [`7560be8`](https://github.com/Yoonmoonsik/dnd55e/commit/7560be8326725e3818185946f5c7576fcba73d54) · *yoonmoonsik*
-Stopped tracking generated or binary files that were previously committed. A repository maintenance change with no gameplay impact.
+
+Stopped tracking generated or binary files that were previously committed. 
+
+A repository maintenance change with no gameplay impact.
 
 ---
 
 ### 🔵 update gitignore
 
 [`e06e391`](https://github.com/Yoonmoonsik/dnd55e/commit/e06e391ccf78749469f35609598a2c4dfc5789a6) · *yoonmoonsik*
-Updated `.gitignore` to exclude additional generated data files. Keeps the repository clean by preventing auto-generated stat output files from being committed.
+
+Updated `.gitignore` to exclude additional generated data files. 
+
+Keeps the repository clean by preventing auto-generated stat output files from being committed.
 
 ---
 
 ### 🔵 update radiance of the dawn
 
 [`5eabeba`](https://github.com/Yoonmoonsik/dnd55e/commit/5eabeba503e7b7ad220d960140afeec387e056aa) · *yoonmoonsik*
-Updated **Radiance of the Dawn** (Light Domain Cleric Channel Divinity). Adjusts the radiant damage dealt to hostile creatures in range and the Darkness dispel effect to match the 2024 feature behavior.
+
+Updated **Radiance of the Dawn** (Light Domain Cleric Channel Divinity). 
+
+Adjusts the radiant damage dealt to hostile creatures in range and the Darkness dispel effect to match the 2024 feature behavior.
 
 ---
 
 ### 🔵 update channel divinity shortrest restore
 
 [`3ec36ca`](https://github.com/Yoonmoonsik/dnd55e/commit/3ec36cac3968e325e21b173a28498abaadbc6a6c) · *yoonmoonsik*
-Updated the **Channel Divinity** short rest restore mechanic. Implements the 2024 rule that Clerics regain one expended Channel Divinity use on a Short Rest, adjusting the resource recovery logic accordingly.
+
+Updated the **Channel Divinity** short rest restore mechanic. 
+
+Implements the 2024 rule that Clerics regain one expended Channel Divinity use on a Short Rest, adjusting the resource recovery logic accordingly.
 
 ---
 
 ### 🔵 update light cleric spelllist
 
 [`b1f220f`](https://github.com/Yoonmoonsik/dnd55e/commit/b1f220f46a19cbc25f665acfad3af239141a8763) · *yoonmoonsik*
-Updated the **Light Domain Cleric** expanded spell list. Ensures all light and fire-themed domain spells are properly granted at each tier as per the 2024 PHB domain design.
+
+Updated the **Light Domain Cleric** expanded spell list. 
+
+Ensures all light and fire-themed domain spells are properly granted at each tier as per the 2024 PHB domain design.
 
 ---
 
 ### 🔵 update channeldivinity uses
 
 [`37af925`](https://github.com/Yoonmoonsik/dnd55e/commit/37af925fb64def709e3643bb21b1d1aebbc8ba8c) · *yoonmoonsik*
-Updated the number of **Channel Divinity** uses per rest for all Cleric subclasses. Aligns the charge count and restoration conditions with the 2024 PHB Channel Divinity rules across all domains.
+
+Updated the number of **Channel Divinity** uses per rest for all Cleric subclasses. 
+
+Aligns the charge count and restoration conditions with the 2024 PHB Channel Divinity rules across all domains.
 
 ---
 
 ### 🔵 update life cleric
 
 [`61e10c0`](https://github.com/Yoonmoonsik/dnd55e/commit/61e10c0b3d3eb325e5590985ee7c28c97a7e55a1) · *yoonmoonsik*
-Updated the **Life Domain Cleric** subclass to align with the 2024 PHB. Adjusts Disciple of Life healing bonus, Preserve Life Channel Divinity, Blessed Healer, and Supreme Healing feature implementations.
+
+Updated the **Life Domain Cleric** subclass to align with the 2024 PHB. 
+
+Adjusts Disciple of Life healing bonus, Preserve Life Channel Divinity, Blessed Healer, and Supreme Healing feature implementations.
 
 ---
 
 ### 🔵 update cleric spelllist
 
 [`8f115f1`](https://github.com/Yoonmoonsik/dnd55e/commit/8f115f163b95a7fa1ef07866b9eef60afd8dba72) · *yoonmoonsik*
-Updated the **Cleric** base spell list to align with the 2024 PHB. Ensures all divine spells are available at their correct levels and that the revised Cleric spell access rules are properly implemented.
+
+Updated the **Cleric** base spell list to align with the 2024 PHB. 
+
+Ensures all divine spells are available at their correct levels and that the revised Cleric spell access rules are properly implemented.
 
 ---
 
 ### 🔵 update gitignore
 
 [`6bf669e`](https://github.com/Yoonmoonsik/dnd55e/commit/6bf669e8cb5aca03ddecca805e3d4700d8977ca5) · *yoonmoonsik*
-Updated `.gitignore` with additional file exclusions. A repository maintenance change with no gameplay impact.
+
+Updated `.gitignore` with additional file exclusions. 
+
+A repository maintenance change with no gameplay impact.
 
 ---
 
 ### 🔵 update cleric
 
 [`10cfe90`](https://github.com/Yoonmoonsik/dnd55e/commit/10cfe908a00aed1be6a45a3ae7b0f135ede1446f) · *yoonmoonsik*
-Updated the **Cleric** base class to align with the 2024 PHB. Revisions cover Divine Order, Spellcasting preparation rules, Channel Divinity improvements, Divine Intervention, and the revised class feature progression.
+
+Updated the **Cleric** base class to align with the 2024 PHB. 
+
+Revisions cover Divine Order, Spellcasting preparation rules, Channel Divinity improvements, Divine Intervention, and the revised class feature progression.
 
 ---
 
 ### 🔵 update gitignore
 
 [`8a21921`](https://github.com/Yoonmoonsik/dnd55e/commit/8a21921778b4fa6310dc32a789bed283f83630e8) · *yoonmoonsik*
-Updated `.gitignore` with further file exclusion rules. A repository maintenance change with no gameplay impact.
+
+Updated `.gitignore` with further file exclusion rules. 
+
+A repository maintenance change with no gameplay impact.
 
 ---
 
 ### 🟢 update Bard and bard subclasses
 
 [`65f6a5c`](https://github.com/Yoonmoonsik/dnd55e/commit/65f6a5c9a6f13fc90dde5070b716d836dddfee0d) · *yoonmoonsik*
-Updated the **Bard** base class and all subclasses to align with the 2024 PHB. Revisions include the Bardic Inspiration Bonus Action grant, Jack of All Trades improvements, and full subclass implementations for Lore, Valor, Swords, Glamour, Whispers, Dance, and Moon colleges.
+
+Updated the **Bard** base class and all subclasses to align with the 2024 PHB. 
+
+Revisions include the Bardic Inspiration Bonus Action grant, Jack of All Trades improvements, and full subclass implementations for Lore, Valor, Swords, Glamour, Whispers, Dance, and Moon colleges.
 
 ---
 
@@ -4258,245 +4499,350 @@ Updated the **Bard** base class and all subclasses to align with the 2024 PHB. R
 ### 🔵 update BerserkerPath, GiantPath, TotemWarriorPath, WildMagicPath
 
 [`d14ae2b`](https://github.com/Yoonmoonsik/dnd55e/commit/d14ae2b3237bb705fa58f8f13597a42148e1c484) · *yoonmoonsik*
-Updated **Path of the Berserker**, **Path of the Giant**, **Path of the Totem Warrior**, and **Path of Wild Magic** Barbarian subclasses to align with the 2024 PHB. Adjusts Frenzy, Giant's Might, Totemic Attunement, and Wild Magic Surge feature implementations.
+
+Updated **Path of the Berserker**, **Path of the Giant**, **Path of the Totem Warrior**, and **Path of Wild Magic** Barbarian subclasses to align with the 2024 PHB. 
+
+Adjusts Frenzy, Giant's Might, Totemic Attunement, and Wild Magic Surge feature implementations.
 
 ---
 
 ### ⚪ set rage duration
 
 [`96b8e62`](https://github.com/Yoonmoonsik/dnd55e/commit/96b8e62010950e2eedd83adf79faf95f46fa11b8) · *yoonmoonsik*
-Set the **Barbarian Rage** duration to 1 minute (10 rounds) as per the 2024 PHB. Corrects the status duration entry so rage automatically ends after the correct number of rounds in combat.
+
+Set the **Barbarian Rage** duration to 1 minute (10 rounds) as per the 2024 PHB. 
+
+Corrects the status duration entry so rage automatically ends after the correct number of rounds in combat.
 
 ---
 
 ### 🔵 update barbarian progression table
 
 [`a943d1e`](https://github.com/Yoonmoonsik/dnd55e/commit/a943d1e1d16fb64f2f8453aa7ed871c868d5aede) · *yoonmoonsik*
-Updated the **Barbarian** class progression table. Corrects the level-by-level unlocking of features, Rage uses, Rage damage bonus, and Brutal Strike improvements to match the 2024 PHB Barbarian table.
+
+Updated the **Barbarian** class progression table. Corrects the level-by-level unlocking of features, 
+
+Rage uses, Rage damage bonus, and Brutal Strike improvements to match the 2024 PHB Barbarian table.
 
 ---
 
 ### 🟢 feat: update Barbarian Rage description and add new RageRestore passive
 
 [`2e11634`](https://github.com/Yoonmoonsik/dnd55e/commit/2e11634b1b9dbf2eba0494094d684fe329adfc40) · *yoonmoonsik*
-Updated the **Rage** description to reflect the 2024 rules and added a new **RageRestore** passive. The passive implements the 2024 rule that Barbarians regain one Rage use when they finish a Short Rest (at higher levels).
+
+Updated the **Rage** description to reflect the 2024 rules and added a new **RageRestore** passive. 
+
+The passive implements the 2024 rule that Barbarians regain one Rage use when they finish a Short Rest (at higher levels).
 
 ---
 
 ### 🟢 Add new Barbarian abilities and status effects
 
 [`adeecba`](https://github.com/Yoonmoonsik/dnd55e/commit/adeecba68e3daac57120720e44cbded09ef298f8) · *yoonmoonsik*
-Added new Barbarian abilities and status effects required for the 2024 class rework. Includes entries for Brutal Strike, Relentless Rage, and updated Rage status logic.
+
+Added new Barbarian abilities and status effects required for the 2024 class rework.
+
+Includes entries for Brutal Strike, Relentless Rage, and updated Rage status logic.
 
 ---
 
 ### 🟢 feat: add additional resource files to .gitignore
 
 [`01cb914`](https://github.com/Yoonmoonsik/dnd55e/commit/01cb91411b69295d6668cf9de0080a9ae8f13e94) · *yoonmoonsik*
-Expanded `.gitignore` to cover additional generated resource files. A repository maintenance change to prevent unintended file tracking.
+
+Expanded `.gitignore` to cover additional generated resource files.
+
+A repository maintenance change to prevent unintended file tracking.
 
 ---
 
 ### 🟢 feat: add weapon names to localization for various weapon types
 
 [`55fe1d0`](https://github.com/Yoonmoonsik/dnd55e/commit/55fe1d008364401494bc19ec55b103aa186059d1) · *yoonmoonsik*
-Added localization entries for weapon names across multiple weapon categories. Ensures all weapons added or revised by the mod display their correct names in the inventory and tooltip UI.
+
+Added localization entries for weapon names across multiple weapon categories. 
+
+Ensures all weapons added or revised by the mod display their correct names in the inventory and tooltip UI.
 
 ---
 
 ### 🟢 feat: enhance weapon mastery passives with new conditions and properties
 
 [`30c4a91`](https://github.com/Yoonmoonsik/dnd55e/commit/30c4a91d91f1e0cbaaf099c513a8b5e8608b4f4c) · *yoonmoonsik*
-Enhanced **Weapon Mastery** passives with additional trigger conditions and property flags. Improves the reliability and accuracy of all mastery effects during combat interactions.
+
+Enhanced **Weapon Mastery** passives with additional trigger conditions and property flags. 
+
+Improves the reliability and accuracy of all mastery effects during combat interactions.
 
 ---
 
 ### 🟢 feat: add WeaponMasterySap passive to PassivesOnEquip for specific weapons
 
 [`897dfd8`](https://github.com/Yoonmoonsik/dnd55e/commit/897dfd8d5fb8b4624ab0d48978ca80986234de2d) · *yoonmoonsik*
-Assigned the **Sap** Weapon Mastery passive to the `PassivesOnEquip` field for all eligible weapons. Allows characters with the Sap mastery to impose disadvantage on the target's next attack after a hit.
+
+Assigned the **Sap** Weapon Mastery passive to the `PassivesOnEquip` field for all eligible weapons.
+
+Allows characters with the Sap mastery to impose disadvantage on the target's next attack after a hit.
 
 ---
 
 ### 🟢 feat: clear RemoveEvents value for specific status effects in Status_BOOST
 
 [`61f118a`](https://github.com/Yoonmoonsik/dnd55e/commit/61f118ad083f9c2a951ba78a011e85ed75abcafd) · *yoonmoonsik*
-Cleared incorrect `RemoveEvents` values on specific status boost entries. Prevents certain weapon mastery and combat status effects from being prematurely removed by unintended game events.
+
+Cleared incorrect `RemoveEvents` values on specific status boost entries. 
+
+Prevents certain weapon mastery and combat status effects from being prematurely removed by unintended game events.
 
 ---
 
 ### 🟢 feat: update PassivesOffHand fields to include WeaponMasteryNick passives
 
 [`58b001f`](https://github.com/Yoonmoonsik/dnd55e/commit/58b001f723f099af61694b5d1b775524fb0b186f) · *yoonmoonsik*
-Updated `PassivesOffHand` fields for Light weapons to include the **Nick** Weapon Mastery passive. Enables the Nick property to properly grant an extra off-hand attack as part of the Attack action for eligible weapons.
+
+Updated `PassivesOffHand` fields for Light weapons to include the **Nick** Weapon Mastery passive. 
+
+Enables the Nick property to properly grant an extra off-hand attack as part of the Attack action for eligible weapons.
 
 ---
 
 ### 🟢 feat: add WeaponMasteryNick passives and localization entries for off-hand attacks
 
 [`337891f`](https://github.com/Yoonmoonsik/dnd55e/commit/337891fe772744609dd65cd649622daa44c41c57) · *yoonmoonsik*
-Added the **Nick** Weapon Mastery passive and its localization entries. Implements the Nick property that allows one off-hand attack as part of the Attack action (not requiring a Bonus Action) with Light weapons.
+
+Added the **Nick** Weapon Mastery passive and its localization entries. 
+
+Implements the Nick property that allows one off-hand attack as part of the Attack action (not requiring a Bonus Action) with Light weapons.
 
 ---
 
 ### 🟢 feat: add WeaponMasteryVex passive to PassivesOnEquip for various weapons
 
 [`e1c6764`](https://github.com/Yoonmoonsik/dnd55e/commit/e1c676427598aaca40b37a38666f2db65c33fd3e) · *yoonmoonsik*
-Assigned the **Vex** Weapon Mastery passive to eligible weapons. Enables the Vex property to grant advantage on the attacker's next attack roll against the same target after a hit.
+
+Assigned the **Vex** Weapon Mastery passive to eligible weapons. 
+
+Enables the Vex property to grant advantage on the attacker's next attack roll against the same target after a hit.
 
 ---
 
 ### 🟢 feat: add WeaponMasteryVex passive and localization entries for weapon mastery effects
 
 [`a7682ed`](https://github.com/Yoonmoonsik/dnd55e/commit/a7682ed8e3a4db94c173decf43106c2db762c42c) · *yoonmoonsik*
-Added the **Vex** Weapon Mastery passive definition and localization entries. Implements the passive trigger and tooltip description for the Vex property across all eligible weapon types.
+
+Added the **Vex** Weapon Mastery passive definition and localization entries.
+
+Implements the passive trigger and tooltip description for the Vex property across all eligible weapon types.
 
 ---
 
 ### 🟢 feat: add WeaponMasteryTopple passive to PassivesOnEquip for various weapons
 
 [`1d4d22b`](https://github.com/Yoonmoonsik/dnd55e/commit/1d4d22bf4e7cb28565cc9797d89d5a7397388221) · *yoonmoonsik*
-Assigned the **Topple** Weapon Mastery passive to eligible weapons. Enables the Topple property to force a Constitution save after a hit, knocking the target prone on a failure.
+
+Assigned the **Topple** Weapon Mastery passive to eligible weapons.
+
+Enables the Topple property to force a Constitution save after a hit, knocking the target prone on a failure.
 
 ---
 
 ### 🟢 feat: add WeaponMasteryTopple passive and localization entries for weapon mastery effects
 
 [`f706059`](https://github.com/Yoonmoonsik/dnd55e/commit/f7060591efae6ce37f8d54ba01670edc6aca2efd) · *yoonmoonsik*
-Added the **Topple** Weapon Mastery passive definition and localization entries. Implements the passive trigger and UI description for the Topple property.
+
+Added the **Topple** Weapon Mastery passive definition and localization entries. 
+
+Implements the passive trigger and UI description for the Topple property.
 
 ---
 
 ### 🟢 feat: add WeaponMasterySlow passive to PassivesOnEquip fields for various weapons
 
 [`2b616de`](https://github.com/Yoonmoonsik/dnd55e/commit/2b616de006d9d8ca67e1076700d9d0caa1b0843a) · *yoonmoonsik*
-Assigned the **Slow** Weapon Mastery passive to eligible weapons. Enables the Slow property to reduce the target's Speed by 10 feet until the start of your next turn after a hit.
+
+Assigned the **Slow** Weapon Mastery passive to eligible weapons. 
+
+Enables the Slow property to reduce the target's Speed by 10 feet until the start of your next turn after a hit.
 
 ---
 
 ### 🟢 feat: add WeaponMasterySlow passive and localization entries for weapon mastery effects
 
 [`9be24da`](https://github.com/Yoonmoonsik/dnd55e/commit/9be24da6b701545ddca465b95c720beafb445429) · *yoonmoonsik*
-Added the **Slow** Weapon Mastery passive definition and localization entries. Implements the passive trigger and tooltip description for the Slow property across all eligible weapon types.
+
+Added the **Slow** Weapon Mastery passive definition and localization entries. 
+
+Implements the passive trigger and tooltip description for the Slow property across all eligible weapon types.
 
 ---
 
 ### 🟢 feat: update Trident damage values and enhance versatile damage type
 
 [`bc64c36`](https://github.com/Yoonmoonsik/dnd55e/commit/bc64c366809db5a1ea77118a4d8fb379644566da) · *yoonmoonsik*
-Updated **Trident** damage values to match the 2024 PHB. Corrects its Versatile damage die from d8 to d10 when wielded with two hands, and assigns the appropriate Weapon Mastery property.
+
+Updated **Trident** damage values to match the 2024 PHB. 
+
+Corrects its Versatile damage die from d8 to d10 when wielded with two hands, and assigns the appropriate Weapon Mastery property.
 
 ---
 
 ### 🟢 feat: update weapon properties to include 'Versatile' for various weapon definitions
 
 [`6045eef`](https://github.com/Yoonmoonsik/dnd55e/commit/6045eefb7d86b7d3fdc58c2654a766b9d243b874) · *yoonmoonsik*
-Added the **Versatile** property to all eligible weapons that were missing it. Ensures these weapons properly offer a two-handed damage die option as defined in the 2024 PHB weapon tables.
+
+Added the **Versatile** property to all eligible weapons that were missing it. 
+
+Ensures these weapons properly offer a two-handed damage die option as defined in the 2024 PHB weapon tables.
 
 ---
 
 ### 🟢 feat: add WeaponMasterySap passive to PassivesOnEquip fields in weapon definitions
 
 [`c761cec`](https://github.com/Yoonmoonsik/dnd55e/commit/c761cec209db8e34aa8bbd4486bdd5b88bf53569) · *yoonmoonsik*
-Assigned the **Sap** Weapon Mastery passive to the `PassivesOnEquip` fields for additional weapon definitions. Expands Sap mastery coverage to all eligible weapon entries.
+
+Assigned the **Sap** Weapon Mastery passive to the `PassivesOnEquip` fields for additional weapon definitions. 
+
+Expands Sap mastery coverage to all eligible weapon entries.
 
 ---
 
 ### 🟢 feat: add WeaponMasterySap passive and localization entries to weapon definitions
 
 [`3b32a09`](https://github.com/Yoonmoonsik/dnd55e/commit/3b32a09b9897547f05eecf88cd0a4a750d567a50) · *yoonmoonsik*
-Added the **Sap** Weapon Mastery passive definition and localization entries. Implements the passive trigger and tooltip description for the Sap property across all eligible weapon types.
+
+Added the **Sap** Weapon Mastery passive definition and localization entries. 
+
+Implements the passive trigger and tooltip description for the Sap property across all eligible weapon types.
 
 ---
 
 ### 🟢 feat: update conditions for WeaponMasteryCleave passives to enhance attack logic
 
 [`169b48e`](https://github.com/Yoonmoonsik/dnd55e/commit/169b48edd46fdd8e72c6fd1d21e9d0389d1d061e) · *yoonmoonsik*
-Refined the trigger conditions for **Cleave** Weapon Mastery passives. Ensures the Cleave property only activates when the attack hits and the secondary target is within the correct reach, preventing unintended activations.
+
+Refined the trigger conditions for **Cleave** Weapon Mastery passives.
+
+Ensures the Cleave property only activates when the attack hits and the secondary target is within the correct reach, preventing unintended activations.
 
 ---
 
 ### 🟢 feat: add WeaponMasteryPush passive to PassivesOnEquip fields in weapon definitions
 
 [`f25e415`](https://github.com/Yoonmoonsik/dnd55e/commit/f25e415aa5a725ff4e62dd32aea6547c198d0a64) · *yoonmoonsik*
-Assigned the **Push** Weapon Mastery passive to the `PassivesOnEquip` fields for all eligible weapons. Enables the Push property to force the target back 10 feet after a hit.
+
+Assigned the **Push** Weapon Mastery passive to the `PassivesOnEquip` fields for all eligible weapons. 
+
+Enables the Push property to force the target back 10 feet after a hit.
 
 ---
 
 ### 🟢 feat: add WeaponMasteryPush passive and localization entries to weapon definitions
 
 [`1a07a72`](https://github.com/Yoonmoonsik/dnd55e/commit/1a07a721216b7cd66aae339f5015f71f5be8335b) · *yoonmoonsik*
-Added the **Push** Weapon Mastery passive definition and localization entries. Implements the passive trigger and tooltip for the Push property across all eligible weapon types.
+
+Added the **Push** Weapon Mastery passive definition and localization entries. 
+
+Implements the passive trigger and tooltip for the Push property across all eligible weapon types.
 
 ---
 
 ### 🟢 feat: add WeaponMasteryGraze passive to PassivesOnEquip fields in weapon definitions
 
 [`bdf713b`](https://github.com/Yoonmoonsik/dnd55e/commit/bdf713b9c0d324475d93aae9892050ae2f7b5909) · *yoonmoonsik*
-Assigned the **Graze** Weapon Mastery passive to the `PassivesOnEquip` fields for eligible weapons. Enables the Graze property to deal the ability modifier in damage even on a missed attack roll.
+
+Assigned the **Graze** Weapon Mastery passive to the `PassivesOnEquip` fields for eligible weapons. 
+
+Enables the Graze property to deal the ability modifier in damage even on a missed attack roll.
 
 ---
 
 ### 🟢 feat: add WeaponMasteryGraze passive and localization entries
 
 [`240c7d3`](https://github.com/Yoonmoonsik/dnd55e/commit/240c7d3d4b2b52b866707cfaf8455306dbe4e4c0) · *yoonmoonsik*
-Added the **Graze** Weapon Mastery passive definition and localization entries. Implements the passive trigger and tooltip for the Graze property — unique among masteries for dealing damage even on a miss.
+
+Added the **Graze** Weapon Mastery passive definition and localization entries. 
+
+Implements the passive trigger and tooltip for the Graze property — unique among masteries for dealing damage even on a miss.
 
 ---
 
 ### 🟢 feat: add WeaponMasteryCleave passives to various weapon definitions
 
 [`352c210`](https://github.com/Yoonmoonsik/dnd55e/commit/352c2102b18b3614d87e5494add9becb3f95a8bb) · *yoonmoonsik*
-Assigned the **Cleave** Weapon Mastery passive to all eligible weapon definitions. Enables the Cleave property to automatically hit a second adjacent creature with the ability modifier in damage after a successful attack.
+
+Assigned the **Cleave** Weapon Mastery passive to all eligible weapon definitions.
+
+Enables the Cleave property to automatically hit a second adjacent creature with the ability modifier in damage after a successful attack.
 
 ---
 
 ### 🟢 feat: add Weapon Mastery Cleave properties and localization entries
 
 [`a468847`](https://github.com/Yoonmoonsik/dnd55e/commit/a46884755c5931b44b5f19c4e935dd71f789e8f7) · *yoonmoonsik*
-Added the **Cleave** Weapon Mastery passive definition and full localization entries. Implements the core passive trigger and UI description for Cleave across all eligible heavy weapon types.
+
+Added the **Cleave** Weapon Mastery passive definition and full localization entries.
+
+Implements the core passive trigger and UI description for Cleave across all eligible heavy weapon types.
 
 ---
 
 ### 🟢 feat: remove BoostsOnEquipMainHand field from multiple weapon definitions
 
 [`2ba9c0b`](https://github.com/Yoonmoonsik/dnd55e/commit/2ba9c0b19caee20bd00792a5b614793bc78963c6) · *yoonmoonsik*
-Removed the deprecated `BoostsOnEquipMainHand` field from multiple weapon entries. Replaces the old boost system with the new Weapon Mastery passive framework to avoid conflicts and double-triggering.
+
+Removed the deprecated `BoostsOnEquipMainHand` field from multiple weapon entries.
+
+Replaces the old boost system with the new Weapon Mastery passive framework to avoid conflicts and double-triggering.
 
 ---
 
 ### 🟢 Implement feature X to enhance user experience and optimize performance
 
 [`779c084`](https://github.com/Yoonmoonsik/dnd55e/commit/779c084796e0098556b280db9fccc747797cf957) · *yoonmoonsik*
-Internal framework improvement to the mod's passive and boost system. Optimizes how weapon and class passives are evaluated during combat to reduce conflicts and improve performance.
+
+Internal framework improvement to the mod's passive and boost system. 
+
+Optimizes how weapon and class passives are evaluated during combat to reduce conflicts and improve performance.
 
 ---
 
 ### 🟢 feat: add Weapon and Spell_Zone data files to .gitignore
 
 [`a42fecf`](https://github.com/Yoonmoonsik/dnd55e/commit/a42fecf13068e10a0a1b1a66010d5e56d37bc8a9) · *yoonmoonsik*
-Updated `.gitignore` to exclude Weapon and Spell_Zone generated data files. Keeps auto-generated output from cluttering the repository's commit history.
+
+Updated `.gitignore` to exclude Weapon and Spell_Zone generated data files. 
+
+Keeps auto-generated output from cluttering the repository's commit history.
 
 ---
 
 ### 🟢 feat: enhance Shove spell with additional properties and effects; add ShoveUnarmedAttack definition
 
 [`e486ebb`](https://github.com/Yoonmoonsik/dnd55e/commit/e486ebbd5b418f912755c1e520a4cfa906edacfd) · *yoonmoonsik*
-Enhanced the **Shove** action with additional properties and a new `ShoveUnarmedAttack` variant. Implements the 2024 rule that Shove can be performed as part of an Unarmed Strike, allowing characters to knock targets prone or push them 5 feet away.
+
+Enhanced the **Shove** action with additional properties and a new `ShoveUnarmedAttack` variant. 
+
+Implements the 2024 rule that Shove can be performed as part of an Unarmed Strike, allowing characters to knock targets prone or push them 5 feet away.
 
 ---
 
 ### 🟢 feat: add Shove and related spell definitions to Target.stats; update RemoveEvents in Status_KNOCKED_DOWN.stats
 
 [`f0ab6b0`](https://github.com/Yoonmoonsik/dnd55e/commit/f0ab6b0cb499036cea7eed6e91ffedf0cf65dc2d) · *yoonmoonsik*
-Added full Shove spell definitions to `Target.stats` and updated the `KNOCKED_DOWN` status `RemoveEvents`. Ensures the prone condition applied by Shove is properly removed when the target stands up or the condition ends.
+
+Added full Shove spell definitions to `Target.stats` and updated the `KNOCKED_DOWN` status `RemoveEvents`. 
+
+Ensures the prone condition applied by Shove is properly removed when the target stands up or the condition ends.
 
 ---
 
 ### 🟢 feat: add One Spell with a Spell Slot per Turn rule and related localization entries
 
 [`9e98a9e`](https://github.com/Yoonmoonsik/dnd55e/commit/9e98a9eb937a4d4c2188da95437ed162f716b7be) · *yoonmoonsik*
-Implemented the 2024 rule that only **one spell with a spell slot** can be cast per turn (the "one leveled spell per turn" restriction). Adds the passive tracker and localization entries that enforce and communicate this limitation to players.
+
+Implemented the 2024 rule that only **one spell with a spell slot** can be cast per turn (the "one leveled spell per turn" restriction). 
+
+Adds the passive tracker and localization entries that enforce and communicate this limitation to players.
 
 ---
 
@@ -4505,70 +4851,100 @@ Implemented the 2024 rule that only **one spell with a spell slot** can be cast 
 ### 🟢 feat: add Throw spell data and update .gitignore to include Spell_Throw.txt
 
 [`613238a`](https://github.com/Yoonmoonsik/dnd55e/commit/613238a7b7d389d8483c1e3bfb4b77531f4e4940) · *yoonmoonsik*
-Added **Throw** action spell data implementing the 2024 rules for throwing weapons and improvised objects. Characters can now throw weapons with the Thrown property using their normal attack bonus and damage values.
+
+Added **Throw** action spell data implementing the 2024 rules for throwing weapons and improvised objects. 
+
+Characters can now throw weapons with the Thrown property using their normal attack bonus and damage values.
 
 ---
 
 ### 🟢 feat: add Data.stats file for InitiativeDie definition
 
 [`21d8c12`](https://github.com/Yoonmoonsik/dnd55e/commit/21d8c12a6c8da4c004c6af3ff818fd717166ad7c) · *yoonmoonsik*
-Added the `InitiativeDie` definition to `Data.stats`. Implements the 2024 rule that Initiative is rolled with a d20 + Dexterity modifier (removing the flat modifier system used in earlier editions).
+
+Added the `InitiativeDie` definition to `Data.stats`. 
+
+Implements the 2024 rule that Initiative is rolled with a d20 + Dexterity modifier (removing the flat modifier system used in earlier editions).
 
 ---
 
 ### 🟢 feat: add KNOCKED_DOWN status definition and localization entries
 
 [`f2b1e28`](https://github.com/Yoonmoonsik/dnd55e/commit/f2b1e28d84c2bbd3ff3ed2d38c1247c521a63412) · *yoonmoonsik*
-Added the **Knocked Down** (Prone) status definition and its localization entries. Implements the prone condition with correct movement cost to stand, attack roll penalties, and melee/ranged attack advantage/disadvantage rules.
+
+Added the **Knocked Down** (Prone) status definition and its localization entries. 
+
+Implements the prone condition with correct movement cost to stand, attack roll penalties, and melee/ranged attack advantage/disadvantage rules.
 
 ---
 
 ### 🟢 feat: add SpellProperties field to HelpAction for status removal and healing
 
 [`c5b12df`](https://github.com/Yoonmoonsik/dnd55e/commit/c5b12dfc47e749fa9ad79eff8f758ff750f4d473) · *yoonmoonsik*
-Updated the **Help** action to include spell properties for status removal and minor healing. Implements the 2024 rule that the Help action can be used to assist an incapacitated ally, giving them the Prone status removal and 1 HP.
+
+Updated the **Help** action to include spell properties for status removal and minor healing. 
+
+Implements the 2024 rule that the Help action can be used to assist an incapacitated ally, giving them the Prone status removal and 1 HP.
 
 ---
 
 ### 🟢 feat: add DOWNED status definition and related localization entries
 
 [`4401282`](https://github.com/Yoonmoonsik/dnd55e/commit/44012821eb6644876af6e472ca72a1a7ea9fba37) · *yoonmoonsik*
-Added the **Downed** status definition and localization entries. Implements the 2024 rules for the Downed condition (0 HP) including death saving throws, instant death threshold, and the conditions under which the character stabilizes or dies.
+
+Added the **Downed** status definition and localization entries. 
+
+Implements the 2024 rules for the Downed condition (0 HP) including death saving throws, instant death threshold, and the conditions under which the character stabilizes or dies.
 
 ---
 
 ### 🟢 feat: add Projectile action spell data and update .gitignore
 
 [`b139fb4`](https://github.com/Yoonmoonsik/dnd55e/commit/b139fb43dbf31c186ed59543228c1751c9c67f11) · *yoonmoonsik*
-Added Projectile action spell data for ranged weapon attacks. Implements the base ranged attack framework used by bows, crossbows, and firearms, ensuring correct attack roll and damage calculations.
+
+Added Projectile action spell data for ranged weapon attacks. 
+
+Implements the base ranged attack framework used by bows, crossbows, and firearms, ensuring correct attack roll and damage calculations.
 
 ---
 
 ### 🟢 feat: add Target action spell data and update .gitignore
 
 [`0940318`](https://github.com/Yoonmoonsik/dnd55e/commit/0940318b145f28a4f0a8476ebb26953199d4a18f) · *yoonmoonsik*
-Added Target action spell data for melee and targeted abilities. Implements the base targeting framework for single-target melee attacks and touch spells used across all classes.
+
+Added Target action spell data for melee and targeted abilities. 
+
+Implements the base targeting framework for single-target melee attacks and touch spells used across all classes.
 
 ---
 
 ### 🟢 feat: add SNEAKING status definition and update .gitignore
 
 [`4caaf55`](https://github.com/Yoonmoonsik/dnd55e/commit/4caaf55f3d5c2342608829c3b614015594df8a6e) · *yoonmoonsik*
-Added the **Sneaking** status definition. Implements the Hidden condition granted by the Hide action, including the rules for when stealth is broken and how it interacts with attack rolls and detection.
+
+Added the **Sneaking** status definition. 
+
+Implements the Hidden condition granted by the Hide action, including the rules for when stealth is broken and how it interacts with attack rolls and detection.
 
 ---
 
 ### ⚪ git commit -m "chore: stop tracking ignored files"
 
 [`62008d0`](https://github.com/Yoonmoonsik/dnd55e/commit/62008d08f4fada2a1b54f383d04b200cf606fadc) · *yoonmoonsik*
-Removed previously tracked files that are now covered by `.gitignore`. A repository cleanup with no gameplay impact.
+
+Removed previously tracked files that are now covered by `.gitignore`.
+
+A repository cleanup with no gameplay impact.
 
 ---
 
 ### 🟢 Add resource files to .gitignore to prevent version control of generated data
 
 [`b96265d`](https://github.com/Yoonmoonsik/dnd55e/commit/b96265db40549c3dac66e09c1490f0198f47078c) · *yoonmoonsik*
-Added generated resource files to `.gitignore`. Prevents auto-generated stat output and data files from being committed, keeping the repository focused on source files only.
+
+Added generated resource files to `.gitignore`.
+
+Prevents auto-generated stat output and data files from being committed, keeping the repository focused on source files only.
 
 ---
 
@@ -4577,6 +4953,7 @@ Added generated resource files to `.gitignore`. Prevents auto-generated stat out
 [`a80b5c4`](https://github.com/Yoonmoonsik/dnd55e/commit/a80b5c412648d25cc51c07e9b005c186498350e2) · *yoonmoonsik*
 
 Added Shout action definitions for Dodge and Disengage combat actions.
+
 Added DODGE status data and linked spell container entries for action integration
 
 ---
@@ -4586,6 +4963,7 @@ Added DODGE status data and linked spell container entries for action integratio
 [`bb33f5e`](https://github.com/Yoonmoonsik/dnd55e/commit/bb33f5edf54dc595e9e9c9d6ace7ac57c10dbd67) · *yoonmoonsik*
 
 Fixed a pre-combat Dash exploit that allowed unintended movement speed carryover into combat.
+
 Added a passive that automatically removes Dash-related statuses when combat starts.
 
 ---
@@ -4595,6 +4973,7 @@ Added a passive that automatically removes Dash-related statuses when combat sta
 [`d29fda2`](https://github.com/Yoonmoonsik/dnd55e/commit/d29fda2b46990f9b3b335d6b4395d9c98ef86d39) · *yoonmoonsik*
 
 Added .gitignore rules to exclude generated story and game-related files from version control.
+
 Improved repository cleanliness by preventing temporary and locally generated files from being tracked.
 
 ---
@@ -4604,6 +4983,7 @@ Improved repository cleanliness by preventing temporary and locally generated fi
 [`d74f7c8`](https://github.com/Yoonmoonsik/dnd55e/commit/d74f7c876080f0ce86832d2ef9c09653ad76d143) · *yoonmoonsik*
 
 Added passive data entries for weapon equipping behavior and attack interaction mechanics.
+
 Implemented foundational passive definitions used for combat state handling and weapon-based action logic.
 
 ---
@@ -4613,6 +4993,7 @@ Implemented foundational passive definitions used for combat state handling and 
 [`b156a6d`](https://github.com/Yoonmoonsik/dnd55e/commit/b156a6dd6d74219f87c25679372ccb46b251f500) · *yoonmoonsik*
 
 Added the initial DnD 5.5e mod project structure, including core folders and configuration files.
+
 Added symbolic links and base setup files required for BG3 mod development and data integration.
 
 ---
