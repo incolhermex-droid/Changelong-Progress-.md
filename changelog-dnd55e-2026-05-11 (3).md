@@ -78,6 +78,7 @@ Updated the Castilian Spanish localization (`spanish.xml`) with two fixes: the *
 [`45f43be`](https://github.com/Yoonmoonsik/dnd55e/commit/45f43be527cd002436b010ae1c87e95232debd0d) · *yoonmoonsik*
 
 Fixed the College of Dance “Inspiring Movement” description to correctly state that allied movement no longer provokes Opportunity Attacks.
+
 Updated related localization, spell data references, and generated target data to reflect the corrected tooltip behavior.
 
 ---
